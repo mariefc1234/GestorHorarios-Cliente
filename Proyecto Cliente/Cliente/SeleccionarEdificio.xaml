@@ -1,0 +1,20 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.SeleccionarEdificio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="SeleccionarEdificio" Height="450" Width="800">
+    <Grid>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" Margin="0,32,0,0" Height="47" Width="130">
+            Edificios
+        </Label>
+
+        <Button FontSize="25" Background="LightGray" Margin="93,159,476,171">FEI</Button>
+        <Button FontSize="25" Background="LightGray" Margin="476,159,93,171">Econex</Button>
+
+        <Button FontSize="15" Background="LightGray" Margin="643,370,29,10">Salir</Button>
+
+    </Grid>
+</Window>

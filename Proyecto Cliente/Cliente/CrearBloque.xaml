@@ -1,0 +1,48 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.CrearBloque"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="CrearBloque" Height="450" Width="800">
+    <Grid>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Margin="0,33,0,0">
+            Crear Bloque
+        </Label>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="217,102,0,0">
+            Semestre
+        </Label>
+        <TextBox x:Name="Semestre" Width="285" HorizontalAlignment="Left" FontSize="20" Margin="307,102,0,283"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="217,187,0,0">
+            Grupo
+        </Label>
+        <TextBox x:Name="grupoTb" Width="285" HorizontalAlignment="Left" FontSize="20" Margin="307,187,0,196"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="217,279,0,0">
+            Área
+        </Label>
+        <Button FontSize="15" Background="LightGray" Margin="643,370,29,10">Salir</Button>
+
+
+        <ComboBox Margin="307,276,208,100" RenderTransformOrigin="0.5,0.5">
+            
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="Red"><Run Text="Red"/></TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="Green"><Run Text="Green"/></TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="Blue"><Run Text="Blue"/></TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+
+    </Grid>
+
+</Window>

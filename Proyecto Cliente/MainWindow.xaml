@@ -1,0 +1,24 @@
+﻿<Window x:Class="Proyecto_Cliente.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente"
+        mc:Ignorable="d"
+        Title="Login" Height="720" Width="1280">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" Margin="0,125,0,0">
+            Iniciar sesión
+        </TextBlock>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Margin="0,213,0,0">
+            Matricula:
+        </Label>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Margin="0,311,0,0">
+            Contraseña:
+        </Label>
+        <TextBox x:Name="tbMatricula" Width="348" HorizontalAlignment="Center" Margin="0,250,0,393" FontSize="20"/>
+        <PasswordBox x:Name="psbContrasenia" MaxLength="16" Margin="466,352,466,295" FontSize="20"/>
+        <Button Margin="466,432,466,203" FontSize="20" Background="LightBlue" Click="Button_IniciarSesion">Entrar</Button>
+        <Button Margin="1145,629,34,29" FontSize="15" Background="LightGray" Click="Button_Cancelar">Salir</Button>
+    </Grid>
+</Window>

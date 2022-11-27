@@ -1,0 +1,20 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.PrincipalAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="PrincipalAdministrador" Height="450" Width="800">
+    <Grid>
+        <Label Content="Administrador" HorizontalAlignment="Center" Margin="0,53,0,0" VerticalAlignment="Top" Height="39" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="68" Margin="10,10,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Content="Registrar Salones" HorizontalAlignment="Left" Margin="158,124,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
+        <Button Content="Registrar Secretarios" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
+        <Button Content="Registrar EE" HorizontalAlignment="Left" Margin="519,124,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
+        <Button Content="Agregar Edificio" HorizontalAlignment="Left" Margin="251,225,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
+        <Button Content="Agregar Área" HorizontalAlignment="Left" Margin="432,225,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
+        <Button Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="665,375,0,0" VerticalAlignment="Top" Width="110" Height="35" FontSize="16" Click="Button_Click"/>
+
+    </Grid>
+</Window>
