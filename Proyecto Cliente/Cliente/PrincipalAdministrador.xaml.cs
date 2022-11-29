@@ -24,9 +24,18 @@ namespace Proyecto_Cliente.Cliente
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_AgregarEdificio(object sender, RoutedEventArgs e)
         {
+            AgregarEdificio age = new AgregarEdificio();
+            age.Show();
+            this.Close();
+        }
 
+        private void Button_CerrarSesion(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
         }
     }
 }

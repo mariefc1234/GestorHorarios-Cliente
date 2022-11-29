@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Proyecto_Cliente.Cliente
 {
     /// <summary>
-    /// Lógica de interacción para Window1.xaml
+    /// Lógica de interacción para MainAlumnos.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class MainAlumnos : Window
     {
-        public Window1()
+        public MainAlumnos()
         {
             InitializeComponent();
         }

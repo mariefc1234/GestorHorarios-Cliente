@@ -35,17 +35,10 @@ namespace Proyecto_Cliente
 
             if (vMatricula == 0 || vContrasenia == 0)
             {
-                MessageBox.Show("campos vacios");
+                MessageBox.Show("Algunos campos estan vacios");
             }
             else
             {
-                MessageBox.Show("vas bien puto");
-
-                /*
-                var url = "http://127.0.0.1:5000/api/login";
-
-                var json = "{\"correo\": \""+tbMatricula.Text+"\",\"password\": \""+psbContrasenia.Password+"\"}"; */
-
                 try
                 {
                     var url = "http://127.0.0.1:5000/api/login";
@@ -58,23 +51,33 @@ namespace Proyecto_Cliente
                     request.AddParameter("application/json", json, ParameterType.RequestBody);
                     var response = client.Execute(request);
 
+                    Console.WriteLine(response.StatusCode.ToString());
+
 
                     if (response.StatusCode.ToString().Equals("OK"))
                     {
-                        MessageBox.Show("ohh si");
-                        AgregarArea agregarArea = new AgregarArea();
-                        agregarArea.Show();
+                        //
+                        //PrincipalAdministrador psa = new PrincipalAdministrador();
+                        //psa.Show();
+                        //this.Close();
+                        
+
+                        Prinicipal_Secretario ps = new Prinicipal_Secretario();
+                        ps.Show();
                         this.Close();
+                    }
+                    else if (response.StatusCode.ToString().Equals("0"))
+                    {
+                        MessageBox.Show("No se pudo establecer conexion con el servidor");
                     }
                     else
                     {
-                        MessageBox.Show("ohh no");
+                        MessageBox.Show("Credenciales no validas");
                     }
-
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("nel prro");
+                    MessageBox.Show("Error no se pudo establecer conexion con el servidor");
                 }
             }
         }

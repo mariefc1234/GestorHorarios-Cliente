@@ -1,0 +1,27 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.RegistrarAlumno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="RegistrarAlumno" Height="450" Width="800">
+    <Grid Height="450" Width="800" >
+        <Label Margin="37,68,688,336">Correo:</Label>
+        <TextBox Name="tbCorreo" Margin="112,68,445,336"></TextBox>
+
+        <Label Margin="400,160,325,244">Contraseña:</Label>
+        <Label Margin="37,160,688,244">Nombre(s):</Label>
+        <Label Margin="37,241,688,163">Apellidos:</Label>
+        <Label Margin="400,241,272,163">Fecha de nacimiento:</Label>
+        <DatePicker Name="dpFechaNacimiento" Margin="533,241,73,98" ></DatePicker>
+        <Label Margin="400,68,331,336">Matricula:</Label>
+        <TextBox Name="tbNombres" Margin="112,151,445,253"/>
+        <TextBox Name="tbApellidos" Margin="112,233,445,171"/>
+        <TextBox Name="tbMatricula" Margin="484,68,73,336"/>
+        <TextBox Name="tbContrasena"  Margin="484,151,73,253"/>
+
+        <Button Margin="182,364,514,45" Background="LightBlue" Click="Button_Registrar">Registrar</Button>
+        <Button Margin="58,364,638,45" Background="White" Click="Button_Cancelar">Cancelar</Button>
+    </Grid>
+</Window>

@@ -23,5 +23,19 @@ namespace Proyecto_Cliente.Cliente
         {
             InitializeComponent();
         }
+
+        private void Button_RegistarAlumno(object sender, RoutedEventArgs e)
+        {
+            RegistrarAlumno rgA = new RegistrarAlumno();
+            rgA.Show();
+            this.Close();
+        }
+
+        private void Button_CerrarSesion(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
+        }
     }
 }

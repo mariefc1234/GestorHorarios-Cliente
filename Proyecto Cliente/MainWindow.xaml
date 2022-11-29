@@ -5,20 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Cliente"
         mc:Ignorable="d"
-        Title="Login" Height="720" Width="1280">
-    <Grid>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" Margin="0,125,0,0">
-            Iniciar sesión
-        </TextBlock>
-        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Margin="0,213,0,0">
-            Matricula:
-        </Label>
-        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Margin="0,311,0,0">
-            Contraseña:
-        </Label>
-        <TextBox x:Name="tbMatricula" Width="348" HorizontalAlignment="Center" Margin="0,250,0,393" FontSize="20"/>
-        <PasswordBox x:Name="psbContrasenia" MaxLength="16" Margin="466,352,466,295" FontSize="20"/>
-        <Button Margin="466,432,466,203" FontSize="20" Background="LightBlue" Click="Button_IniciarSesion">Entrar</Button>
-        <Button Margin="1145,629,34,29" FontSize="15" Background="LightGray" Click="Button_Cancelar">Salir</Button>
+        Title="Login" Height="530" Width="800">
+    <Grid Height="530" Width="800">
+        <Image Source="/Images/InicioSesion.png" Margin="-33,-20,-67,10"></Image>
+        <TextBlock FontSize="30" Margin="459,84,161,405" Foreground="White">Iniciar sesion</TextBlock>
+
+        <Label FontSize="20" Foreground="White" Margin="498,143,196,349">Matricula</Label>
+        <TextBox x:Name="tbMatricula" FontSize="20" Margin="404,186,95,308"/>
+
+        <Label FontSize="20" Foreground="White" Margin="490,231,196,261">Contraseña</Label>
+        <PasswordBox x:Name="psbContrasenia" MaxLength="16" FontSize="20" Margin="404,274,95,215"/>
+
+        <Button FontSize="20" Background="LightGreen" Click="Button_IniciarSesion" Margin="405,335,95,136" Foreground="Black">Entrar</Button>
+        <Button FontSize="15" Background="LightGray" Click="Button_Cancelar" Margin="690,441,28,46">Salir</Button>
+
     </Grid>
 </Window>

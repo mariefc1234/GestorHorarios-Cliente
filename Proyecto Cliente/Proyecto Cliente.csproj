@@ -156,6 +156,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Cliente\MainAlumnos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\PrincipalAdministrador.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -163,6 +167,10 @@
     <Page Include="Cliente\PrinicipalSecretario.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cliente\RegistrarAlumno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\SeleccionarEdificio.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -176,10 +184,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Cliente\Window1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -188,29 +192,74 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Cliente\AgregarArea.xaml.cs" />
-    <Compile Include="Cliente\AgregarEdificio.xaml.cs" />
-    <Compile Include="Cliente\AgregarExperiencia.xaml.cs" />
-    <Compile Include="Cliente\AgregarMaestro.xaml.cs" />
-    <Compile Include="Cliente\AgregarSalon.xaml.cs" />
-    <Compile Include="Cliente\AgregarSecretario.xaml.cs" />
-    <Compile Include="Cliente\AsignarCalificacion.xaml.cs" />
-    <Compile Include="Cliente\AsignarClase.xaml.cs" />
-    <Compile Include="Cliente\AsignarEstudianteBloque-2.xaml.cs" />
-    <Compile Include="Cliente\AsignarEstudianteBloque.xaml.cs" />
-    <Compile Include="Cliente\BuscarEE.xaml.cs" />
-    <Compile Include="Cliente\BuscarSalones-Maestros.xaml.cs" />
-    <Compile Include="Cliente\ConsultarCalificaciones.xaml.cs" />
-    <Compile Include="Cliente\ConsultarHorarioAlumno.xaml.cs" />
-    <Compile Include="Cliente\CrearBloque.xaml.cs" />
-    <Compile Include="Cliente\CrearPeriodo.xaml.cs" />
-    <Compile Include="Cliente\PrincipalAdministrador.xaml.cs" />
-    <Compile Include="Cliente\PrinicipalSecretario.xaml.cs" />
-    <Compile Include="Cliente\SeleccionarEdificio.xaml.cs" />
-    <Compile Include="Cliente\VerHorarioMaestros.xaml.cs" />
-    <Compile Include="Cliente\VerSalones.xaml.cs" />
-    <Compile Include="Cliente\Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
+    <Compile Include="Cliente\AgregarArea.xaml.cs">
+      <DependentUpon>AgregarArea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AgregarEdificio.xaml.cs">
+      <DependentUpon>AgregarEdificio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AgregarExperiencia.xaml.cs">
+      <DependentUpon>AgregarExperiencia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AgregarMaestro.xaml.cs">
+      <DependentUpon>AgregarMaestro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AgregarSalon.xaml.cs">
+      <DependentUpon>AgregarSalon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AgregarSecretario.xaml.cs">
+      <DependentUpon>AgregarSecretario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AsignarCalificacion.xaml.cs">
+      <DependentUpon>AsignarCalificacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AsignarClase.xaml.cs">
+      <DependentUpon>AsignarClase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AsignarEstudianteBloque-2.xaml.cs">
+      <DependentUpon>AsignarEstudianteBloque-2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\AsignarEstudianteBloque.xaml.cs">
+      <DependentUpon>AsignarEstudianteBloque.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\BuscarEE.xaml.cs">
+      <DependentUpon>BuscarEE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\BuscarSalones-Maestros.xaml.cs">
+      <DependentUpon>BuscarSalones-Maestros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\ConsultarCalificaciones.xaml.cs">
+      <DependentUpon>ConsultarCalificaciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\ConsultarHorarioAlumno.xaml.cs">
+      <DependentUpon>ConsultarHorarioAlumno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CrearBloque.xaml.cs">
+      <DependentUpon>CrearBloque.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CrearPeriodo.xaml.cs">
+      <DependentUpon>CrearPeriodo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\MainAlumnos.xaml.cs">
+      <DependentUpon>MainAlumnos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PrincipalAdministrador.xaml.cs">
+      <DependentUpon>PrincipalAdministrador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PrinicipalSecretario.xaml.cs">
+      <DependentUpon>PrinicipalSecretario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\RegistrarAlumno.xaml.cs">
+      <DependentUpon>RegistrarAlumno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\SeleccionarEdificio.xaml.cs">
+      <DependentUpon>SeleccionarEdificio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\VerHorarioMaestros.xaml.cs">
+      <DependentUpon>VerHorarioMaestros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\VerSalones.xaml.cs">
+      <DependentUpon>VerSalones.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -244,6 +293,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\InicioSesion.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

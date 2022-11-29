@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
 Proyecto_Cliente
 none
 false
 DEBUG;TRACE
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\App.xaml
-23908962824
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
+24-118650360
 
-28-2071202404
-27-1485868578
-Cliente\AgregarArea.xaml;Cliente\AgregarEdificio.xaml;Cliente\AgregarExperiencia.xaml;Cliente\AgregarMaestro.xaml;Cliente\AgregarSalon.xaml;Cliente\AgregarSecretario.xaml;Cliente\AsignarCalificacion.xaml;Cliente\AsignarClase.xaml;Cliente\AsignarEstudianteBloque-2.xaml;Cliente\AsignarEstudianteBloque.xaml;Cliente\BuscarEE.xaml;Cliente\BuscarSalones-Maestros.xaml;Cliente\ConsultarCalificaciones.xaml;Cliente\ConsultarHorarioAlumno.xaml;Cliente\CrearBloque.xaml;Cliente\CrearPeriodo.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\SeleccionarEdificio.xaml;Cliente\VerHorarioMaestros.xaml;Cliente\VerSalones.xaml;Cliente\Window1.xaml;MainWindow.xaml;
+29342910172
+27-1371266728
+Cliente\AgregarArea.xaml;Cliente\AgregarEdificio.xaml;Cliente\AgregarExperiencia.xaml;Cliente\AgregarMaestro.xaml;Cliente\AgregarSalon.xaml;Cliente\AgregarSecretario.xaml;Cliente\AsignarCalificacion.xaml;Cliente\AsignarClase.xaml;Cliente\AsignarEstudianteBloque-2.xaml;Cliente\AsignarEstudianteBloque.xaml;Cliente\BuscarEE.xaml;Cliente\BuscarSalones-Maestros.xaml;Cliente\ConsultarCalificaciones.xaml;Cliente\ConsultarHorarioAlumno.xaml;Cliente\CrearBloque.xaml;Cliente\CrearPeriodo.xaml;Cliente\MainAlumnos.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\RegistrarAlumno.xaml;Cliente\SeleccionarEdificio.xaml;Cliente\VerHorarioMaestros.xaml;Cliente\VerSalones.xaml;MainWindow.xaml;
 
 True
 
