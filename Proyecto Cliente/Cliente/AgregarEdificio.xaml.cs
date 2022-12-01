@@ -24,8 +24,8 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_Cancelar(object sender, RoutedEventArgs e)
         {
-            PrincipalAdministrador psa = new PrincipalAdministrador();
-            psa.Show();
+            AdministrarEdificio ade = new AdministrarEdificio();
+            ade.Show();
             this.Close();
         }
 
@@ -51,11 +51,10 @@ namespace Proyecto_Cliente.Cliente
                 request.AddHeader("content-type", "application/json");
                 request.AddParameter("application/json", json, ParameterType.RequestBody);
                 var response = client.Execute(request);
-                MessageBox.Show(response.StatusCode.ToString());
 
                 if (response.StatusCode.ToString().Equals("Created"))
                 {
-                    MessageBox.Show("SEXOOOO");
+                    MessageBox.Show("Edificio agregado con exito");
                     tbNombre.Clear();
                     cbPisos.SelectedIndex = -1;
                 }

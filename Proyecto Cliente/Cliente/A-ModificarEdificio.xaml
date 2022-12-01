@@ -1,0 +1,27 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_ModificarEdificio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_ModificarEdificio" Height="450" Width="800">
+    <Grid Margin="10,10,10,-6" RenderTransformOrigin="0.511,0.187" Height="450" Width="800">
+        <Label FontSize="30" Margin="279,10,240,342">Modificar Edifico</Label>
+        <Label Width="Auto" FontSize="20" Margin="146,117,539,296" >Nombre:</Label>
+        <TextBox x:Name="tbNombre" Margin="300,117,135,296"></TextBox>
+        <Label FontSize="20" Margin="146,174,465,230" >Numero de Pisos:</Label>
+        <ComboBox Name="cbPisos" HorizontalAlignment="Left" Margin="356,178,0,0" VerticalAlignment="Top" Width="309" Height="38">
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+            <ComboBoxItem>6</ComboBoxItem>
+        </ComboBox>
+
+        <Button Margin="420,294,262,116" Click="Button_ClickGuardar">Guardar</Button>
+        <Button Margin="547,294,135,116" Click="Button_ClickCancelar">Salir</Button>
+
+    </Grid>
+</Window>

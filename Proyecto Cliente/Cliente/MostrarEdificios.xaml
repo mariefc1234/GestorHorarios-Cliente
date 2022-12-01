@@ -8,11 +8,17 @@
         Title="MostrarEdificios" Height="450" Width="800">
     <Grid>
         <Label FontSize="20" Margin="354,10,354,359">Edificios</Label>
-        <Button Margin="488,53,230,337">Ver detalles</Button>
-        <Button Margin="583,53,135,337">Modificar</Button>
-        <Button Margin="678,53,40,337">Eliminar</Button>
-        <Button Margin="678,359,40,33">Salir</Button>
+        <Button Margin="488,53,230,337" Click="Button_ClickMostrarDetalles">Ver detalles</Button>
+        <Button Margin="583,53,135,337" Click="Button_ClickModificarEdificio">Modificar</Button>
+        <Button Margin="678,53,40,337" Click="Button_ClickEliminar">Eliminar</Button>
+        <Button Margin="678,359,40,33" Click="Button_ClickSalir">Salir</Button>
 
-        <DataGrid  IsReadOnly="True" Name="dgEdificios"  Margin="88,113,40,103"></DataGrid>
+
+        <DataGrid ColumnWidth="350"  IsReadOnly="True" Name="dgEdificios"  Margin="88,113,40,103" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="325 " Header="Nombre" Binding="{Binding nombre}" ></DataGridTextColumn>
+                <DataGridTextColumn Width="325 " Header="NoPisos" Binding="{Binding noPisos}" ></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
