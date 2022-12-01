@@ -24,10 +24,10 @@ namespace Proyecto_Cliente.Cliente
             InitializeComponent();
         }
 
-        private void Button_AgregarEdificio(object sender, RoutedEventArgs e)
+        private void Button_AdministrarEdificio(object sender, RoutedEventArgs e)
         {
-            AgregarEdificio age = new AgregarEdificio();
-            age.Show();
+            AdministrarEdificio ade = new AdministrarEdificio();
+            ade.Show();
             this.Close();
         }
 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
-24-118650360
+71976720243
 
-28-1869968506
-27-1371266728
-Cliente\AgregarArea.xaml;Cliente\AgregarEdificio.xaml;Cliente\AgregarExperiencia.xaml;Cliente\AgregarMaestro.xaml;Cliente\AgregarSalon.xaml;Cliente\AgregarSecretario.xaml;Cliente\AsignarCalificacion.xaml;Cliente\AsignarClase.xaml;Cliente\AsignarEstudianteBloque-2.xaml;Cliente\AsignarEstudianteBloque.xaml;Cliente\BuscarEE.xaml;Cliente\BuscarSalones-Maestros.xaml;Cliente\ConsultarCalificaciones.xaml;Cliente\ConsultarHorarioAlumno.xaml;Cliente\CrearBloque.xaml;Cliente\CrearPeriodo.xaml;Cliente\MainAlumnos.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\RegistrarAlumno.xaml;Cliente\SeleccionarEdificio.xaml;Cliente\VerHorarioMaestros.xaml;Cliente\VerSalones.xaml;MainWindow.xaml;
+11858135515
+28-1862755733
+Cliente\AdministrarEdificio.xaml;Cliente\AgregarEdificio.xaml;Cliente\MostrarEdificios.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\RegistrarAlumno.xaml;MainWindow.xaml;
 
 False
 

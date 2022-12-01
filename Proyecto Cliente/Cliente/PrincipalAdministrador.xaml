@@ -12,7 +12,7 @@
         <Button Content="Registrar Salones" HorizontalAlignment="Left" Margin="158,124,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
         <Button Content="Registrar Secretarios" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
         <Button Content="Registrar EE" HorizontalAlignment="Left" Margin="519,124,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
-        <Button Background="LightBlue" Content="Agregar Edificio" HorizontalAlignment="Left" Margin="251,225,0,0" VerticalAlignment="Top" Height="60" Width="120" Click="Button_AgregarEdificio"/>
+        <Button Background="LightBlue" Content="Administrar Edificio" HorizontalAlignment="Left" Margin="251,225,0,0" VerticalAlignment="Top" Height="60" Width="120" Click="Button_AdministrarEdificio"/>
         <Button Content="Agregar Área" HorizontalAlignment="Left" Margin="432,225,0,0" VerticalAlignment="Top" Height="60" Width="120"/>
         <Button Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="665,375,0,0" VerticalAlignment="Top" Width="110" Height="35" FontSize="16" Click="Button_CerrarSesion"/>
 

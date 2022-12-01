@@ -1,0 +1,18 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.MostrarEdificios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="MostrarEdificios" Height="450" Width="800">
+    <Grid>
+        <Label FontSize="20" Margin="354,10,354,359">Edificios</Label>
+        <Button Margin="488,53,230,337">Ver detalles</Button>
+        <Button Margin="583,53,135,337">Modificar</Button>
+        <Button Margin="678,53,40,337">Eliminar</Button>
+        <Button Margin="678,359,40,33">Salir</Button>
+
+        <DataGrid  IsReadOnly="True" Name="dgEdificios"  Margin="88,113,40,103"></DataGrid>
+    </Grid>
+</Window>

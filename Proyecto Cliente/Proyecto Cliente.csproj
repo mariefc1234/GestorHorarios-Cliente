@@ -74,6 +74,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -92,71 +93,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Cliente\AgregarArea.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Cliente\AdministrarEdificio.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\AgregarEdificio.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Cliente\AgregarExperiencia.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AgregarMaestro.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AgregarSalon.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AgregarSecretario.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AsignarCalificacion.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AsignarClase.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AsignarEstudianteBloque-2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\AsignarEstudianteBloque.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\BuscarEE.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\BuscarSalones-Maestros.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\ConsultarCalificaciones.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\ConsultarHorarioAlumno.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\CrearBloque.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\CrearPeriodo.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\MainAlumnos.xaml">
+    <Page Include="Cliente\MostrarEdificios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,18 +117,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Cliente\SeleccionarEdificio.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\VerHorarioMaestros.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\VerSalones.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -192,56 +125,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Cliente\AgregarArea.xaml.cs">
-      <DependentUpon>AgregarArea.xaml</DependentUpon>
+    <Compile Include="Cliente\AdministrarEdificio.xaml.cs">
+      <DependentUpon>AdministrarEdificio.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\AgregarEdificio.xaml.cs">
       <DependentUpon>AgregarEdificio.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Cliente\AgregarExperiencia.xaml.cs">
-      <DependentUpon>AgregarExperiencia.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AgregarMaestro.xaml.cs">
-      <DependentUpon>AgregarMaestro.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AgregarSalon.xaml.cs">
-      <DependentUpon>AgregarSalon.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AgregarSecretario.xaml.cs">
-      <DependentUpon>AgregarSecretario.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AsignarCalificacion.xaml.cs">
-      <DependentUpon>AsignarCalificacion.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AsignarClase.xaml.cs">
-      <DependentUpon>AsignarClase.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AsignarEstudianteBloque-2.xaml.cs">
-      <DependentUpon>AsignarEstudianteBloque-2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\AsignarEstudianteBloque.xaml.cs">
-      <DependentUpon>AsignarEstudianteBloque.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\BuscarEE.xaml.cs">
-      <DependentUpon>BuscarEE.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\BuscarSalones-Maestros.xaml.cs">
-      <DependentUpon>BuscarSalones-Maestros.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\ConsultarCalificaciones.xaml.cs">
-      <DependentUpon>ConsultarCalificaciones.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\ConsultarHorarioAlumno.xaml.cs">
-      <DependentUpon>ConsultarHorarioAlumno.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\CrearBloque.xaml.cs">
-      <DependentUpon>CrearBloque.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\CrearPeriodo.xaml.cs">
-      <DependentUpon>CrearPeriodo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\MainAlumnos.xaml.cs">
-      <DependentUpon>MainAlumnos.xaml</DependentUpon>
+    <Compile Include="Cliente\MostrarEdificios.xaml.cs">
+      <DependentUpon>MostrarEdificios.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\PrincipalAdministrador.xaml.cs">
       <DependentUpon>PrincipalAdministrador.xaml</DependentUpon>
@@ -251,15 +142,6 @@
     </Compile>
     <Compile Include="Cliente\RegistrarAlumno.xaml.cs">
       <DependentUpon>RegistrarAlumno.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\SeleccionarEdificio.xaml.cs">
-      <DependentUpon>SeleccionarEdificio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\VerHorarioMaestros.xaml.cs">
-      <DependentUpon>VerHorarioMaestros.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\VerSalones.xaml.cs">
-      <DependentUpon>VerSalones.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

@@ -56,15 +56,15 @@ namespace Proyecto_Cliente
 
                     if (response.StatusCode.ToString().Equals("OK"))
                     {
-                        //
-                        //PrincipalAdministrador psa = new PrincipalAdministrador();
-                        //psa.Show();
-                        //this.Close();
+                        
+                        PrincipalAdministrador psa = new PrincipalAdministrador();
+                        psa.Show();
+                        this.Close();
                         
 
-                        Prinicipal_Secretario ps = new Prinicipal_Secretario();
-                        ps.Show();
-                        this.Close();
+                        //Prinicipal_Secretario ps = new Prinicipal_Secretario();
+                        //7ps.Show();
+                        //this.Close();
                     }
                     else if (response.StatusCode.ToString().Equals("0"))
                     {
