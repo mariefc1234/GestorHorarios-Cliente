@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Proyecto_Cliente.Cliente;
 using RestSharp;
 using System;
@@ -50,19 +51,40 @@ namespace Proyecto_Cliente
                     request.AddHeader("content-type", "application/json");
                     request.AddParameter("application/json", json, ParameterType.RequestBody);
                     var response = client.Execute(request);
-
-                    Console.WriteLine(response.StatusCode.ToString());
+                    JObject jsonHelp = JObject.Parse(response.Content);
 
 
                     if (response.StatusCode.ToString().Equals("OK"))
                     {
-                        PrincipalAdministrador psa = new PrincipalAdministrador();
-                        psa.Show();
-                        this.Close();
+                        var data = jsonHelp.SelectToken("data");
+                        int rol = (int)data.SelectToken("rol");
+                        string tokenS = (string)data.SelectToken("token");
 
-                        //Prinicipal_Secretario ps = new Prinicipal_Secretario();
-                        //7ps.Show();
-                        //this.Close();
+                        switch (rol)
+                        {
+                            case 1:
+                                MessageBox.Show("Login alumno");
+                                //mandar token
+                                break;
+                            case 2:
+                                MessageBox.Show("Login Maestro");
+                                //mandar token
+                                break;
+                            case 3:
+                                //PrincipalAdministrador psa = new PrincipalAdministrador(tokenS);
+                                //psa.Show();
+                                //this.Close();
+
+                                Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
+                                ps.Show();
+                                this.Close();
+                                break;
+                            case 4:
+                                //Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
+                                //ps.Show();
+                                //this.Close();
+                                break;
+                        }
                     }
                     else if (response.StatusCode.ToString().Equals("0"))
                     {

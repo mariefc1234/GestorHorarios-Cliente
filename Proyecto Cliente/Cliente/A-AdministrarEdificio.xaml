@@ -1,0 +1,27 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AdministrarEdificio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_AdministrarEdificio" Height="450" Width="800">
+    
+    <Grid Height="450" Width="800">
+        <Label FontSize="20" Margin="354,10,354,359">Edificios</Label>
+        <Button Margin="488,53,230,359" Click="Button_ClickMostrarDetalles">Ver detalles</Button>
+        <Button Background="LightBlue" Margin="393,53,325,359" Click="Button_ClickAgregarEdificio">Agregar</Button>
+        
+        <Button Margin="583,53,135,359" Click="Button_ClickModificarEdificio">Modificar</Button>
+        <Button Background="LightCoral" Margin="678,53,40,359" Click="Button_ClickEliminar">Eliminar</Button>
+        <Button Margin="644,359,40,51" Click="Button_ClickSalir">Salir</Button>
+
+
+        <DataGrid ColumnWidth="350"  IsReadOnly="True" Name="dgEdificios"  Margin="88,113,40,103" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="325 " Header="Nombre" Binding="{Binding nombre}" ></DataGridTextColumn>
+                <DataGridTextColumn Width="325 " Header="NoPisos" Binding="{Binding pisos}" ></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

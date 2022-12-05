@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,19 +15,18 @@ using System.Windows.Shapes;
 
 namespace Proyecto_Cliente.Cliente
 {
-    /// <summary>
-    /// Lógica de interacción para Prinicipal_Secretario.xaml
-    /// </summary>
     public partial class Prinicipal_Secretario : Window
     {
-        public Prinicipal_Secretario()
+        string tokenR;
+        public Prinicipal_Secretario(string tokenS)
         {
             InitializeComponent();
+            tokenR = tokenS;
         }
 
         private void Button_RegistarAlumno(object sender, RoutedEventArgs e)
         {
-            RegistrarAlumno rgA = new RegistrarAlumno();
+            RegistrarAlumno rgA = new RegistrarAlumno(tokenR);
             rgA.Show();
             this.Close();
         }
@@ -35,6 +35,13 @@ namespace Proyecto_Cliente.Cliente
         {
             MainWindow mw = new MainWindow();
             mw.Show();
+            this.Close();
+        }
+
+        private void Button_ClickRegistarMaestro(object sender, RoutedEventArgs e)
+        {
+            S_RegistrarMaestro srm = new S_RegistrarMaestro(tokenR);
+            srm.Show();
             this.Close();
         }
     }

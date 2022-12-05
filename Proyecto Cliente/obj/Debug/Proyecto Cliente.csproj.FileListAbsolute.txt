@@ -212,9 +212,15 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\RegistrarAlumno.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\RegistrarAlumno.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AdministrarEdificio.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AdministrarEdificio.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\MostrarEdificios.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\MostrarEdificios.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.xml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.xml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.baml

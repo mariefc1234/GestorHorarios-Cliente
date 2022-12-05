@@ -1,0 +1,34 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.S_RegistrarMaestro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="S_RegistrarMaestro" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="296,10,296,394"  >Registrar Maestro</Label>
+
+        <Label FontSize="15" Margin="27,70,635,350">Correo Electronico:</Label>
+        <TextBox FontSize="15" x:Name="tbCorreoElectronico" Margin="165,70,412,350"></TextBox>
+
+        <Label FontSize="15" Margin="27,123,665,297">Contraseña:</Label>
+        <TextBox FontSize="15" x:Name="tbContraseña" Margin="165,123,412,297"></TextBox>
+
+        <Label FontSize="15" Margin="27,178,682,242">Nombre(s):</Label>
+        <TextBox FontSize="15" x:Name="tbNombre" Margin="165,178,412,242"></TextBox>
+
+        <Label FontSize="15" Margin="27,233,635,187">Apellidos:</Label>
+        <TextBox FontSize="15" x:Name="tbApellidos" Margin="165,233,412,187"></TextBox>
+
+        <Label FontSize="15" Margin="27,288,649,132">Clave empleado:</Label>
+        <TextBox FontSize="15" x:Name="tbClaveEmpleado" Margin="165,288,412,132"></TextBox>
+
+        <Label FontSize="15" Margin="498,70,143,350">Fecha de nacimiento:</Label>
+        <DatePicker Name="dpFechaNacimiento" Margin="498,105,108,234" ></DatePicker>
+
+        <Button Margin="648,349,39,63" Click="Button_Registrar">Registrar</Button>
+        <Button Background="White" Margin="519,349,168,63" Click="Button_Cancelar">Cancelar</Button>
+
+    </Grid>
+</Window>

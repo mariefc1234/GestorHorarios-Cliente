@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,19 +15,18 @@ using System.Windows.Shapes;
 
 namespace Proyecto_Cliente.Cliente
 {
-    /// <summary>
-    /// Lógica de interacción para PrincipalAdministrador.xaml
-    /// </summary>
     public partial class PrincipalAdministrador : Window
     {
-        public PrincipalAdministrador()
+        string tokenR;
+        public PrincipalAdministrador(string tokenS)
         {
             InitializeComponent();
+            tokenR = tokenS;
         }
 
         private void Button_AdministrarEdificio(object sender, RoutedEventArgs e)
         {
-            AdministrarEdificio ade = new AdministrarEdificio();
+            A_AdministrarEdificio ade = new A_AdministrarEdificio(tokenR);
             ade.Show();
             this.Close();
         }
@@ -35,6 +35,13 @@ namespace Proyecto_Cliente.Cliente
         {
             MainWindow mw = new MainWindow();
             mw.Show();
+            this.Close();
+        }
+
+        private void Button_ClickAdministrarArea(object sender, RoutedEventArgs e)
+        {
+            A_AdministrarArea ata = new A_AdministrarArea(tokenR);
+            ata.Show();
             this.Close();
         }
     }

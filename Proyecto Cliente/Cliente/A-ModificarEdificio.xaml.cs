@@ -1,7 +1,10 @@
-﻿using RestSharp;
+﻿using Microsoft.VisualBasic;
+using Newtonsoft.Json.Linq;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,28 +19,33 @@ using System.Windows.Shapes;
 
 namespace Proyecto_Cliente.Cliente
 {
-    /// <summary>
-    /// Lógica de interacción para A_ModificarEdificio.xaml
-    /// </summary>
     public partial class A_ModificarEdificio : Window
     {
         int idEdificio;
         string nombreEdificio;
         int noPisos;
-        public A_ModificarEdificio( int id, string nombre, int pisos)
+        HttpClient client = new HttpClient();
+        string tokenR;
+        public A_ModificarEdificio(int id, string nombre, int pisos, string tokenS)
         {
+            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/area");
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Add("authtoken", tokenR);
+            client.DefaultRequestHeaders.Accept.Add(
+                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
+                );
             InitializeComponent();
             tbNombre.Text = nombre;
             cbPisos.SelectedIndex = pisos-1;
-
             idEdificio = id;
             nombreEdificio = nombre;
             noPisos = pisos;
+            tokenR = tokenS;
         }
 
         private void Button_ClickCancelar(object sender, RoutedEventArgs e)
         {
-            MostrarEdificios mse = new MostrarEdificios();
+            A_AdministrarEdificio mse = new A_AdministrarEdificio(tokenR);
             mse.Show();
             this.Close();
 
@@ -45,23 +53,43 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_ClickGuardar(object sender, RoutedEventArgs e)
         {
-            int varPisos= cbPisos.SelectedIndex - 1;
-            string varNombre = tbNombre.Text;
+            Edificio edificioN = new Edificio();
 
-            var url = "http://127.0.0.1:5000/api/edificio/"+idEdificio;
-            var json = "{    \"nombre\": \""+ varNombre+"\",   \"pisos\": "+ varPisos + "}";
-            var client = new RestClient(url);
-            var request = new RestRequest();
-            request.Method = Method.Patch;
-
-            request.AddHeader("content-type", "application/json");
-            request.AddParameter("application/json", json, ParameterType.RequestBody);
-            var response = client.Execute(request);
-
-            if (response.StatusCode.ToString().Equals("OK"))
+            if(cbPisos.SelectedIndex + 1 == 0 || tbNombre.Text.Length == 0)
             {
-                MessageBox.Show("Modificado con exito");
+                MessageBox.Show("Debes ingresar informacion");
             }
+            else
+            {
+                edificioN.id = idEdificio;
+                edificioN.pisos = cbPisos.SelectedIndex + 1;
+                edificioN.nombre = tbNombre.Text;
+                this.ActualizarEdificio(edificioN);
+            }
+        }
+
+        private async void ActualizarEdificio(Edificio edificio)
+        {
+            try
+            {
+                await client.PutAsJsonAsync("edificio/" + edificio.id, edificio);
+                MessageBox.Show("Los datos se actualizaron con exito");
+                A_AdministrarEdificio mse = new A_AdministrarEdificio(tokenR);
+                mse.Show();
+                this.Close();
+
+            }
+            catch (HttpRequestException he)
+            {
+                MessageBox.Show("No se pudo conectar con la base de datos");
+            }
+        }
+        public class Edificio
+        {
+            public int id { get; set; }
+            public string nombre { get; set; }
+            public int pisos { get; set; }
+            public Edificio() { }
         }
     }
 }

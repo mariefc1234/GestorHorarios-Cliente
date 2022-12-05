@@ -1,0 +1,30 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AdministrarArea"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_AdministrarArea" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="367,10,367,400">Area</Label>
+
+        <Button Background="LightBlue" Margin="563,308,84,112" Click="Button_ClickAgregarArea">Agregar</Button>
+        <Button Background="LightCoral" Margin="563,114,85,306" Click="Button_ClickEliminar">Eliminar</Button>
+        <Button Margin="647,72,84,348" Click="Button_ClickMostrarArea">Mostrar</Button>
+        <Button Margin="562,72,168,348" Click="Button_ClickModificarArea">Modificar</Button>
+
+        <Button Background="white" Margin="27,359,682,61" Click="Button_ClickCancelar">Cancelar</Button>
+
+        <DataGrid Margin="63,68,281,112" AutoGenerateColumns="False" IsReadOnly="True" Name="dgArea" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="455 " Header="Nombre" Binding="{Binding nombre}" ></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label FontSize="15" Margin="562,212,85,209">Nombre Area:</Label>
+        <TextBox x:Name="tbNombreArea" Margin="562,246,84,147"></TextBox>
+        <TextBox x:Name="tbId" Margin="562,246,84,147" Visibility="Hidden" Text="0"></TextBox>
+
+    </Grid>
+</Window>

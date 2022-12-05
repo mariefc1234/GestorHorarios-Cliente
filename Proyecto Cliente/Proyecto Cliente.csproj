@@ -38,6 +38,7 @@
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -54,6 +55,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.9\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -75,6 +79,9 @@
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.9\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -94,21 +101,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Cliente\A-ModificarEdificio.xaml">
+    <Page Include="Cliente\A-AdministrarArea.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Cliente\AdministrarEdificio.xaml">
+    <Page Include="Cliente\A-AdministrarEdificio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-ModificarEdificio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\AgregarEdificio.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Cliente\MostrarEdificios.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\PrincipalAdministrador.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +129,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cliente\S-RegistrarMaestro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -130,17 +141,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Cliente\A-AdministrarArea.xaml.cs">
+      <DependentUpon>A-AdministrarArea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-AdministrarEdificio.xaml.cs">
+      <DependentUpon>A-AdministrarEdificio.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\A-ModificarEdificio.xaml.cs">
       <DependentUpon>A-ModificarEdificio.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Cliente\AdministrarEdificio.xaml.cs">
-      <DependentUpon>AdministrarEdificio.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Cliente\AgregarEdificio.xaml.cs">
       <DependentUpon>AgregarEdificio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Cliente\MostrarEdificios.xaml.cs">
-      <DependentUpon>MostrarEdificios.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\PrincipalAdministrador.xaml.cs">
       <DependentUpon>PrincipalAdministrador.xaml</DependentUpon>
@@ -150,6 +161,9 @@
     </Compile>
     <Compile Include="Cliente\RegistrarAlumno.xaml.cs">
       <DependentUpon>RegistrarAlumno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\S-RegistrarMaestro.xaml.cs">
+      <DependentUpon>S-RegistrarMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
