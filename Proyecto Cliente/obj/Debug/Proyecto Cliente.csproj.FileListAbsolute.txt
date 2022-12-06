@@ -224,3 +224,9 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.baml

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AdministrarSalon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_AdministrarSalon" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="349,10,349,394">Salones</Label>
+        <DataGrid IsReadOnly="True" AutoGenerateColumns="False" x:Name="dgSalones" Margin="54,84,229,84">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="150 " Header="Nombre" Binding="{Binding nombre}" ></DataGridTextColumn>
+                <DataGridTextColumn Width="150 " Header="Cupo" Binding="{Binding totalCupo}" ></DataGridTextColumn>
+                <DataGridTextColumn Width="150 " Header="Proyector" Binding="{Binding tieneProyector}" ></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Background="LightGreen" Margin="603,180,38,232" Click="Button_ClickAgregarSalon">Agregar Salon</Button>
+        <Button Background="LightCoral" Margin="603,136,38,275" Click="Button_ClickEliminar">Eliminar Salon</Button>
+        <Button Margin="603,92,128,319" Click="Button_ClickModificar">Modificar</Button>
+        <Button Margin="693,92,38,319" Click="Button_ClickMostrar">Ver detalles</Button>
+        <Button Background="white" Margin="682,342,38,69" Click="Button_ClickCancelar">Cancelar</Button>
+    </Grid>
+</Window>

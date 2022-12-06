@@ -109,7 +109,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cliente\A-AdministrarSalon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-AgregarSalon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\A-ModificarEdificio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-ModificarSalon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -147,8 +159,17 @@
     <Compile Include="Cliente\A-AdministrarEdificio.xaml.cs">
       <DependentUpon>A-AdministrarEdificio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\A-AdministrarSalon.xaml.cs">
+      <DependentUpon>A-AdministrarSalon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-AgregarSalon.xaml.cs">
+      <DependentUpon>A-AgregarSalon.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\A-ModificarEdificio.xaml.cs">
       <DependentUpon>A-ModificarEdificio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-ModificarSalon.xaml.cs">
+      <DependentUpon>A-ModificarSalon.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\AgregarEdificio.xaml.cs">
       <DependentUpon>AgregarEdificio.xaml</DependentUpon>

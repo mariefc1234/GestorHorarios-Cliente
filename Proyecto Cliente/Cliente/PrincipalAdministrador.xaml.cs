@@ -44,5 +44,12 @@ namespace Proyecto_Cliente.Cliente
             ata.Show();
             this.Close();
         }
+
+        private void Button_ClickAdministrarSalones(object sender, RoutedEventArgs e)
+        {
+            A_AdministrarSalon ads = new A_AdministrarSalon(tokenR);
+            ads.Show();
+            this.Close();
+        }
     }
 }

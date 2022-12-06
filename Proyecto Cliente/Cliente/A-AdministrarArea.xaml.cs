@@ -26,7 +26,8 @@ namespace Proyecto_Cliente.Cliente
 
         public A_AdministrarArea(String tokenS)
         {
-            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/area");
+            tokenR = tokenS;
+            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/salon");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Add("authtoken", tokenR);
             client.DefaultRequestHeaders.Accept.Add(
@@ -35,7 +36,6 @@ namespace Proyecto_Cliente.Cliente
 
             InitializeComponent();
             GetAreas();
-            tokenR = tokenS;
         }
 
         private void Button_ClickMostrarArea(object sender, RoutedEventArgs e)
