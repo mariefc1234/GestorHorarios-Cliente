@@ -51,5 +51,12 @@ namespace Proyecto_Cliente.Cliente
             ads.Show();
             this.Close();
         }
+
+        private void Button_ClickAdministrarMateria(object sender, RoutedEventArgs e)
+        {
+            A_AdministrarMateria adm = new A_AdministrarMateria(tokenR);
+            adm.Show();
+            this.Close();
+        }
     }
 }

@@ -109,7 +109,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cliente\A-AdministrarMateria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\A-AdministrarSalon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-AgregarMateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -118,6 +126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\A-ModificarEdificio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-ModificarMateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -159,14 +171,23 @@
     <Compile Include="Cliente\A-AdministrarEdificio.xaml.cs">
       <DependentUpon>A-AdministrarEdificio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\A-AdministrarMateria.xaml.cs">
+      <DependentUpon>A-AdministrarMateria.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\A-AdministrarSalon.xaml.cs">
       <DependentUpon>A-AdministrarSalon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-AgregarMateria.xaml.cs">
+      <DependentUpon>A-AgregarMateria.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\A-AgregarSalon.xaml.cs">
       <DependentUpon>A-AgregarSalon.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\A-ModificarEdificio.xaml.cs">
       <DependentUpon>A-ModificarEdificio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-ModificarMateria.xaml.cs">
+      <DependentUpon>A-ModificarMateria.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\A-ModificarSalon.xaml.cs">
       <DependentUpon>A-ModificarSalon.xaml</DependentUpon>

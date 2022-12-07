@@ -1,0 +1,18 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AgregarMateria"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_AgregarMateria" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="302,10,302,394">Agregar Materia</Label>
+        <Label FontSize="20" Margin="150,106,535,303" >Nombre:</Label>
+        <TextBox x:Name="tbNombre" Margin="265,106,203,303"></TextBox>
+        <Label FontSize="20" Margin="150,184,535,225" >Semestre:</Label>
+        <TextBox x:Name="tbSemestre" Margin="265,184,203,225"></TextBox>
+        <Button Background="LightGreen" Margin="430,331,240,73" Click="Button_ClickAgregar">Agregar</Button>
+        <Button Background="White" Margin="578,331,92,73" Click="Button_ClickCancelar">Cancelar</Button>
+    </Grid>
+</Window>

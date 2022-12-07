@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -44,24 +45,31 @@ namespace Proyecto_Cliente.Cliente
             }
             else
             {
-                int proyector = 0;
-                if(cbProyector.SelectedIndex == 0)
+                try
                 {
-                    proyector = 1;
-                }
-                else
-                {
-                    proyector = 0;
-                }
+                    int proyector = 0;
+                    if (cbProyector.SelectedIndex == 0)
+                    {
+                        proyector = 1;
+                    }
+                    else
+                    {
+                        proyector = 0;
+                    }
 
-                var salon = new Salon()
+                    var salon = new Salon()
+                    {
+                        nombre = tbNombre.Text,
+                        proyector = Convert.ToInt32(proyector),
+                        idEdificio = Convert.ToInt32(edificioN.id),
+                        totalCupo = Convert.ToInt32(tbCupo.Text),
+                    };
+                    this.GuardarSalon(salon);
+                }
+                catch (FormatException FE)
                 {
-                    nombre = tbNombre.Text,
-                    proyector = Convert.ToInt32(proyector),
-                    idEdificio = Convert.ToInt32(edificioN.id),
-                    totalCupo = Convert.ToInt32(tbCupo.Text),
-                };
-                this.GuardarSalon(salon);
+                    MessageBox.Show("Cupo total solo adminite enteros");
+                }
             }
         }
 

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AdministrarMateria"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_AdministrarMateria" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="342,10,342,397">Materias</Label>
+        <Button Background="LightGreen" Margin="570,83,87,327" Click="Button_ClickAgregar">Agregar</Button>
+        <Button Background="LightCoral" Margin="570,132,87,278" Click="Button_ClickEliminar">Eliminar</Button>
+        <Button Margin="570,182,87,228" Click="Button_ClickDetalles">Ver Detalles</Button>
+        <Button Background="LightBlue" Margin="570,232,87,178" Click="Button_ClickModificar">Modificar</Button>
+        <Button Background="white" Click="Button_ClickSalir" Margin="663,358,53,52">Salir</Button>
+
+        <DataGrid x:Name="dgMaterias" AutoGenerateColumns="False" IsReadOnly="True" Margin="83,83,259,120">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="225 " Header="Nombre" Binding="{Binding nombre}" ></DataGridTextColumn>
+                <DataGridTextColumn Width="225 " Header="Semestre" Binding="{Binding semestre}" ></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

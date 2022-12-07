@@ -59,28 +59,37 @@ namespace Proyecto_Cliente.Cliente
             }
             else
             {
-                salonN.nombre = tbNombre.Text;
-                salonN.totalCupo = Convert.ToInt32(tbCupo.Text.ToString());
-                if (cbProyector.SelectedIndex == 0)
+                try
                 {
-                    salonN.proyector = 1;
-                }
-                else
-                {
-                    salonN.proyector = 0;
-                }
+                    salonN.nombre = tbNombre.Text;
+                    salonN.totalCupo = Convert.ToInt32(tbCupo.Text.ToString());
+                    if (cbProyector.SelectedIndex == 0)
+                    {
+                        salonN.proyector = 1;
+                    }
+                    else
+                    {
+                        salonN.proyector = 0;
+                    }
 
-                Edificio edificioN = dgEdificios.SelectedItem as Edificio;
-                if (edificioN == null)
-                {
-                    salonN.idEdificio = idEdificio;
-                    this.ActualizarSalon(salonN);
+                    Edificio edificioN = dgEdificios.SelectedItem as Edificio;
+                    if (edificioN == null)
+                    {
+                        salonN.idEdificio = idEdificio;
+                        this.ActualizarSalon(salonN);
+                    }
+                    else
+                    {
+                        salonN.idEdificio = edificioN.id;
+                        this.ActualizarSalon(salonN);
+                    }
+
                 }
-                else
+                catch (FormatException FE)
                 {
-                    salonN.idEdificio = edificioN.id;
-                    this.ActualizarSalon(salonN);
+                    MessageBox.Show("Cupo total solo adminite enteros");
                 }
+            
             }
         }
         private void Button_ClickCancelar(object sender, RoutedEventArgs e)

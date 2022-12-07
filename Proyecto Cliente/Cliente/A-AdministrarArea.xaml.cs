@@ -27,7 +27,7 @@ namespace Proyecto_Cliente.Cliente
         public A_AdministrarArea(String tokenS)
         {
             tokenR = tokenS;
-            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/salon");
+            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/area");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Add("authtoken", tokenR);
             client.DefaultRequestHeaders.Accept.Add(
