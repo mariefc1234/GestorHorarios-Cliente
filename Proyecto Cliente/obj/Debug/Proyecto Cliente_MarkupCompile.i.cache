@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
 Proyecto_Cliente
 none
 false
 DEBUG;TRACE
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
 15-1662900419
 
 20-349348381
-32941557782
+34507536967
 Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarSalon.xaml;Cliente\AgregarEdificio.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
 
-True
+False
 

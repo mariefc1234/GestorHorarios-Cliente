@@ -18,6 +18,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MaterialDesignThemes.Wpf;
 
 namespace Proyecto_Cliente
 {
@@ -27,6 +28,46 @@ namespace Proyecto_Cliente
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        public bool IsDarkTheme { get; set; }
+        private readonly PaletteHelper paletteHelper = new PaletteHelper();
+
+        private void themeToggle_Click(object sender, RoutedEventArgs e)
+        {
+            ITheme theme = paletteHelper.GetTheme();
+            if(IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
+            {
+                IsDarkTheme = false;
+                theme.SetBaseTheme(Theme.Light);
+            }else
+            {
+                IsDarkTheme = true;
+                theme.SetBaseTheme(Theme.Dark);
+            }
+            paletteHelper.SetTheme(theme);
+        }
+
+        private void exitApp(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+            DragMove();
+        }
+
+
+        private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
+        {
+            try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
         private void Button_IniciarSesion(object sender, RoutedEventArgs e)
@@ -53,13 +94,11 @@ namespace Proyecto_Cliente
                     var response = client.Execute(request);
                     JObject jsonHelp = JObject.Parse(response.Content);
 
-
                     if (response.StatusCode.ToString().Equals("OK"))
                     {
                         var data = jsonHelp.SelectToken("data");
                         int rol = (int)data.SelectToken("rol");
                         string tokenS = (string)data.SelectToken("token");
-
                         switch (rol)
                         {
                             case 1:
@@ -71,15 +110,14 @@ namespace Proyecto_Cliente
                                 //mandar token
                                 break;
                             case 3:
-                                PrincipalAdministrador psa = new PrincipalAdministrador(tokenS);
-                                psa.Show();
-                                this.Close();
-
                                 //Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
                                 //ps.Show();
                                 //this.Close();
                                 break;
                             case 4:
+                                PrincipalAdministrador psa = new PrincipalAdministrador(tokenS);
+                                psa.Show();
+                                this.Close();
                                 //Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
                                 //ps.Show();
                                 //this.Close();
@@ -97,14 +135,11 @@ namespace Proyecto_Cliente
                 }
                 catch (Exception ex)
                 {
+
+                    Console.Write(ex.Message);
                     MessageBox.Show("Error no se pudo establecer conexion con el servidor");
                 }
             }
-        }
-
-        private void Button_Cancelar(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }

@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/iniciosesion.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/iniciosesionicon.png")]
 
 
