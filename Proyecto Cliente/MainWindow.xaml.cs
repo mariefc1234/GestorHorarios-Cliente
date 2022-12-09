@@ -110,17 +110,14 @@ namespace Proyecto_Cliente
                                 //mandar token
                                 break;
                             case 3:
-                                //Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
-                                //ps.Show();
-                                //this.Close();
+                                Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
+                                ps.Show();
+                                this.Close();
                                 break;
                             case 4:
                                 PrincipalAdministrador psa = new PrincipalAdministrador(tokenS);
                                 psa.Show();
                                 this.Close();
-                                //Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
-                                //ps.Show();
-                                //this.Close();
                                 break;
                         }
                     }

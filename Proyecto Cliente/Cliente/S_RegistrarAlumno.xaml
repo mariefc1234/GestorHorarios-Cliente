@@ -1,14 +1,14 @@
 ﻿<Window
-    x:Class="Proyecto_Cliente.Cliente.A_AdministrarArea"
+    x:Class="Proyecto_Cliente.Cliente.S_RegistrarAlumno"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="A_AdministrarArea"
+    Title="S_RegistrarAlumno"
     Width="800"
-    Height="750"
+    Height="500"
     AllowsTransparency="True"
     Background="{x:Null}"
     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -61,81 +61,48 @@
                     HorizontalAlignment="Center"
                     FontSize="28"
                     FontWeight="Bold"
-                    Text="Áreas" />
-                <Grid Height="450">
+                    Text="Registrar Alumno" />
+                <Grid Height="210" HorizontalAlignment="Center">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="550" />
-                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="350" />
+                        <ColumnDefinition Width="350" />
                     </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
                     <StackPanel
-                        Grid.Row="0"
                         Grid.Column="0"
-                        Margin="0,0,0,0"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top"
-                        Orientation="Horizontal">
-                        <Label
-                            Width="100"
-                            Margin="26,0,0,0"
-                            FontSize="15">
-                            Nombre Area:
-                        </Label>
-                        <TextBox x:Name="tbNombreArea" Width="291" />
-                        <TextBox
-                            x:Name="tbId"
-                            Text="0"
-                            Visibility="Hidden" />
-                        <Button Width="100" Click="Button_ClickAgregarArea">
-                            Agregar
-                        </Button>
+                        Margin="0,0,15,0"
+                        VerticalAlignment="Top">
+                        <Label>Correo:</Label>
+                        <TextBox Name="tbCorreo" />
+                        <Label Margin="0,15,0,0">Contraseña:</Label>
+                        <TextBox Name="tbContrasena" />
+                        <Label Margin="0,15,0,0">Matricula:</Label>
+                        <TextBox Name="tbMatricula" />
                     </StackPanel>
-                    <DataGrid
-                        Name="dgArea"
-                        Grid.Row="1"
-                        Grid.Column="0"
-                        Width="500"
-                        AutoGenerateColumns="False"
-                        IsReadOnly="True">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn
-                                Width="500"
-                                Binding="{Binding nombre}"
-                                Header="Nombre" />
-                        </DataGrid.Columns>
-                    </DataGrid>
                     <StackPanel
-                        Grid.Row="1"
                         Grid.Column="1"
                         Margin="0,0,15,0"
-                        HorizontalAlignment="Right"
                         VerticalAlignment="Top">
-                        <Button
-                            Width="150"
-                            Margin="0,0,0,0"
-                            Click="Button_ClickMostrarArea">
-                            Mostrar
-                        </Button>
-                        <Button
-                            Width="150"
-                            Margin="0,30,0,0"
-                            Click="Button_ClickModificarArea">
-                            Modificar
-                        </Button>
-                        <Button
-                            Width="150"
-                            Margin="0,10,0,0"
-                            Background="LightCoral"
-                            Click="Button_ClickEliminar">
-                            Eliminar
-                        </Button>
+                        <Label>Nombre(s):</Label>
+                        <TextBox Name="tbNombres" />
+                        <Label Margin="0,15,0,0">Apellidos:</Label>
+                        <TextBox Name="tbApellidos" />
+                        <Label Margin="0,15,0,0">Fecha de nacimiento:</Label>
+                        <DatePicker Name="dpFechaNacimiento" />
                     </StackPanel>
                 </Grid>
-                <StackPanel Margin="0,80,15,0" HorizontalAlignment="Right">
-                    <Button Width="150" Click="Button_ClickRegresar">Regresar</Button>
+                <StackPanel
+                    Margin="0,35,40,0"
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal">
+                    <Button
+                        Width="100"
+                        Margin="0,0,15,0"
+                        Click="Button_ClickRegresar">
+                        Regresar
+                    </Button>
+                    <Button Width="100" Click="Button_ClickGuardar">
+                        Guardar
+                    </Button>
                 </StackPanel>
             </StackPanel>
         </materialDesign:DialogHost>

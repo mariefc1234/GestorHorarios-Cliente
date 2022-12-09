@@ -19,14 +19,15 @@ using System.Windows.Media.Media3D;
 using System.Windows.Shapes;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using MaterialDesignThemes.Wpf;
 
 namespace Proyecto_Cliente.Cliente
 {
-    public partial class RegistrarAlumno : Window
+    public partial class S_RegistrarAlumno : Window
     {
         HttpClient client = new HttpClient();
         string tokenR;
-        public RegistrarAlumno(string tokenS)
+        public S_RegistrarAlumno(string tokenS)
         {
             tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/register");
@@ -39,14 +40,14 @@ namespace Proyecto_Cliente.Cliente
             InitializeComponent();
         }
 
-        private void Button_Cancelar(object sender, RoutedEventArgs e)
+        private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
             Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenR);
             ps.Show();
             this.Close();
         }
 
-        private void Button_Registrar(object sender, RoutedEventArgs e)
+        private void Button_ClickGuardar(object sender, RoutedEventArgs e)
         {
             String vCorreo = tbCorreo.Text;
             String vNombres = tbNombres.Text;
@@ -161,6 +162,43 @@ namespace Proyecto_Cliente.Cliente
             public string matricula { get; set; }
 
             public Alumno() { }
+        }
+
+
+
+        // Funciones de la ventana
+        public bool IsDarkTheme { get; set; }
+        private readonly PaletteHelper paletteHelper = new PaletteHelper();
+
+        private void themeToggle_Click(object sender, RoutedEventArgs e)
+        {
+            ITheme theme = paletteHelper.GetTheme();
+            if (IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
+            {
+                IsDarkTheme = false;
+                theme.SetBaseTheme(Theme.Light);
+            }
+            else
+            {
+                IsDarkTheme = true;
+                theme.SetBaseTheme(Theme.Dark);
+            }
+            paletteHelper.SetTheme(theme);
+        }
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+            DragMove();
+        }
+
+        private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
+        {
+            try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
     }

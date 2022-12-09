@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using MaterialDesignThemes.Wpf;
+using Microsoft.VisualBasic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -114,7 +115,7 @@ namespace Proyecto_Cliente.Cliente
             tbNombreArea.Text = "";
         }
 
-        private void Button_ClickCancelar(object sender, RoutedEventArgs e)
+        private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
             PrincipalAdministrador psa = new PrincipalAdministrador(tokenR);
             psa.Show();
@@ -184,6 +185,41 @@ namespace Proyecto_Cliente.Cliente
             {
                 MessageBox.Show("No se pudo conectar con la base de datos");
             }
+        }
+
+        // Funciones de la ventana
+        public bool IsDarkTheme { get; set; }
+        private readonly PaletteHelper paletteHelper = new PaletteHelper();
+
+        private void themeToggle_Click(object sender, RoutedEventArgs e)
+        {
+            ITheme theme = paletteHelper.GetTheme();
+            if (IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
+            {
+                IsDarkTheme = false;
+                theme.SetBaseTheme(Theme.Light);
+            }
+            else
+            {
+                IsDarkTheme = true;
+                theme.SetBaseTheme(Theme.Dark);
+            }
+            paletteHelper.SetTheme(theme);
+        }
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+            DragMove();
+        }
+
+        private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
+        {
+            try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
     }

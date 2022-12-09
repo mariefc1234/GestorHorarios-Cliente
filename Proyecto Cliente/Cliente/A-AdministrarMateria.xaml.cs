@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using MaterialDesignThemes.Wpf;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -92,7 +93,7 @@ namespace Proyecto_Cliente.Cliente
                 this.Close();
             }
         }
-        private void Button_ClickSalir(object sender, RoutedEventArgs e)
+        private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
             PrincipalAdministrador psa = new PrincipalAdministrador(tokenR);
             psa.Show();
@@ -140,6 +141,41 @@ namespace Proyecto_Cliente.Cliente
             public int semestre { get; set; }
 
             public Materia(){}
+        }
+
+        // Funciones de la ventana
+        public bool IsDarkTheme { get; set; }
+        private readonly PaletteHelper paletteHelper = new PaletteHelper();
+
+        private void themeToggle_Click(object sender, RoutedEventArgs e)
+        {
+            ITheme theme = paletteHelper.GetTheme();
+            if (IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
+            {
+                IsDarkTheme = false;
+                theme.SetBaseTheme(Theme.Light);
+            }
+            else
+            {
+                IsDarkTheme = true;
+                theme.SetBaseTheme(Theme.Dark);
+            }
+            paletteHelper.SetTheme(theme);
+        }
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+            DragMove();
+        }
+
+        private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
+        {
+            try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
     }

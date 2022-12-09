@@ -25,8 +25,6 @@ namespace Proyecto_Cliente.Cliente
             tokenR = tokenS;
         }
 
-        // ofjhdlafj
-
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
 

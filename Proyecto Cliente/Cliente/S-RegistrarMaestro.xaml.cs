@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using MaterialDesignThemes.Wpf;
+using Microsoft.VisualBasic;
 using Newtonsoft.Json.Linq;
 using RestSharp;
 using System;
@@ -15,7 +16,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using static Proyecto_Cliente.Cliente.RegistrarAlumno;
+using static Proyecto_Cliente.Cliente.S_RegistrarAlumno;
 
 namespace Proyecto_Cliente.Cliente
 {
@@ -37,14 +38,14 @@ namespace Proyecto_Cliente.Cliente
             InitializeComponent();
         }
 
-        private void Button_Cancelar(object sender, RoutedEventArgs e)
+        private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
             Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenR);
             ps.Show();
             this.Close();
         }
 
-        private void Button_Registrar(object sender, RoutedEventArgs e)
+        private void Button_ClickGuardar(object sender, RoutedEventArgs e)
         {
             String vCorreo = tbCorreoElectronico.Text;
             String vNombres = tbNombre.Text;
@@ -147,6 +148,41 @@ namespace Proyecto_Cliente.Cliente
             public string claveEmpleado { get; set; }
 
             public Maestro() { }
+        }
+
+        // Funciones de la ventana
+        public bool IsDarkTheme { get; set; }
+        private readonly PaletteHelper paletteHelper = new PaletteHelper();
+
+        private void themeToggle_Click(object sender, RoutedEventArgs e)
+        {
+            ITheme theme = paletteHelper.GetTheme();
+            if (IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
+            {
+                IsDarkTheme = false;
+                theme.SetBaseTheme(Theme.Light);
+            }
+            else
+            {
+                IsDarkTheme = true;
+                theme.SetBaseTheme(Theme.Dark);
+            }
+            paletteHelper.SetTheme(theme);
+        }
+        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+            DragMove();
+        }
+
+        private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
+        {
+            try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 }

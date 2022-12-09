@@ -287,7 +287,6 @@ D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\De
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.g.cs
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.g.cs
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\RegistrarAlumno.g.cs
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.g.cs
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.g.cs
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.g.cs
@@ -306,7 +305,6 @@ D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\De
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.baml
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.baml
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\RegistrarAlumno.baml
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.baml
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.baml
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.g.resources
@@ -316,3 +314,5 @@ D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\De
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.baml
