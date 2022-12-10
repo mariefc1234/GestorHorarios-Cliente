@@ -210,8 +210,6 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.GenerateResource.cache
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CoreCompileInputs.cache
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\RegistrarAlumno.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\RegistrarAlumno.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.g.cs
@@ -316,3 +314,13 @@ D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\De
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.g.cs
 D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.pdb
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.baml

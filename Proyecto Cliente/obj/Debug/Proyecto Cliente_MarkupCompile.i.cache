@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
 Proyecto_Cliente
 none
 false
 DEBUG;TRACE
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
-15363036801
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
+16106118031
 
-201400544139
-34507536967
-Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarSalon.xaml;Cliente\AgregarEdificio.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
+21-1233354783
+34-493734449
+Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarSalon.xaml;Cliente\A-RegistrarSecretario.xaml;Cliente\AgregarEdificio.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
 
-False
+True
 

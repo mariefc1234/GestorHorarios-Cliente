@@ -96,7 +96,9 @@ namespace Proyecto_Cliente.Cliente
 
         private void registrarSecretarios_Click(object sender, RoutedEventArgs e)
         {
-
+            A_RegistrarSecretario rgs = new A_RegistrarSecretario(tokenR);
+            rgs.Show();
+            this.Close();
         }
 
         private void cerrarSesion_Click(object sender, RoutedEventArgs e)

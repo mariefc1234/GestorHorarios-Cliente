@@ -1,8 +1,4 @@
-﻿using MaterialDesignThemes.Wpf;
-using Microsoft.VisualBasic;
-using Newtonsoft.Json.Linq;
-using RestSharp;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -17,15 +13,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using static Proyecto_Cliente.Cliente.S_RegistrarAlumno;
+using static Proyecto_Cliente.Cliente.S_RegistrarMaestro;
 
 namespace Proyecto_Cliente.Cliente
 {
-
-    public partial class S_RegistrarMaestro : Window
+    public partial class A_RegistrarSecretario : Window
     {
         HttpClient client = new HttpClient();
         string tokenR;
-        public S_RegistrarMaestro(string tokenS)
+        public A_RegistrarSecretario(string tokenS)
         {
             tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/register");
@@ -35,16 +31,10 @@ namespace Proyecto_Cliente.Cliente
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
                 );
             InitializeComponent();
+
         }
 
-        private void Button_ClickRegresar(object sender, RoutedEventArgs e)
-        {
-            Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenR);
-            ps.Show();
-            this.Close();
-        }
-
-        private void Button_ClickGuardar(object sender, RoutedEventArgs e)
+        private void Button_ClicGuardar(object sender, RoutedEventArgs e)
         {
             String vCorreo = tbCorreoElectronico.Text;
             String vNombres = tbNombre.Text;
@@ -52,19 +42,31 @@ namespace Proyecto_Cliente.Cliente
             String vClaveEmpleado = tbClaveEmpleado.Text;
             String vContraseña = tbContraseña.Text;
 
-
             try
             {
                 String vFechaNacimiento = dpFechaNacimiento.SelectedDate.Value.ToString();
+                String primerNombre;
+                String segundoNombre;
                 String primerApellido;
                 String segundoApellido;
-
                 char delimitador = ' ';
                 string[] valores = vFechaNacimiento.Split(delimitador);
                 vFechaNacimiento = valores[0];
                 valores[1] = " ";
-
                 vFechaNacimiento = transformarFecha(vFechaNacimiento);
+
+                if (vNombres.Contains(' '))
+                {
+                    valores = vNombres.Split(delimitador);
+                    primerNombre = valores[0];
+                    valores[1] = " ";
+                    segundoNombre = valores[1];
+                }
+                else
+                {
+                    primerNombre = vNombres;
+                    segundoNombre = " ";
+                }
 
                 valores = vApellidos.Split(delimitador);
                 primerApellido = valores[0];
@@ -76,18 +78,19 @@ namespace Proyecto_Cliente.Cliente
                 }
                 else
                 {
-                    var maestro = new Maestro()
+                    var secretario = new Secretario()
                     {
                         correo = vCorreo,
                         password = vContraseña,
-                        primerNombre = vNombres,
+                        primerNombre = primerNombre,
+                        segundoNombre = segundoNombre,
                         primerApellido = primerApellido,
                         segundoApellido = segundoApellido,
-                        rol = Convert.ToInt32(2),
+                        rol = Convert.ToInt32(3),
                         fechaNacimiento = vFechaNacimiento,
                         claveEmpleado = vClaveEmpleado
                     };
-                    this.RegistrarMaestros(maestro);
+                    this.RegistrarSecretario(secretario);
                 }
             }
             catch (InvalidOperationException io)
@@ -99,6 +102,14 @@ namespace Proyecto_Cliente.Cliente
                 MessageBox.Show("favor de ingresar los dos apellidos");
             }
         }
+
+        private void Button_ClicRegresar(object sender, RoutedEventArgs e)
+        {
+            PrincipalAdministrador pa = new PrincipalAdministrador(tokenR);
+            pa.Show();
+            this.Close();
+        }
+
         public String transformarFecha(String vFechaNacimiento)
         {
             String fechaFinal;
@@ -115,12 +126,12 @@ namespace Proyecto_Cliente.Cliente
             return fechaFinal;
         }
 
-        private async void RegistrarMaestros(Maestro maestro)
+        private async void RegistrarSecretario(Secretario secretario)
         {
             try
             {
-                await client.PostAsJsonAsync("register", maestro);
-                MessageBox.Show("Maestro registrado con exito");
+                await client.PostAsJsonAsync("register", secretario);
+                MessageBox.Show("Secretario registrado con exito");
 
                 tbNombre.Clear();
                 tbClaveEmpleado.Clear();
@@ -135,53 +146,19 @@ namespace Proyecto_Cliente.Cliente
             }
         }
 
-        public class Maestro
+        public class Secretario
         {
             public string correo { get; set; }
             public string password { get; set; }
             public string primerNombre { get; set; }
+            public string segundoNombre { get; set; }
             public string primerApellido { get; set; }
             public string segundoApellido { get; set; }
             public int rol { get; set; }
             public string fechaNacimiento { get; set; }
             public string claveEmpleado { get; set; }
 
-            public Maestro() { }
-        }
-
-        // Funciones de la ventana
-        public bool IsDarkTheme { get; set; }
-        private readonly PaletteHelper paletteHelper = new PaletteHelper();
-
-        private void themeToggle_Click(object sender, RoutedEventArgs e)
-        {
-            ITheme theme = paletteHelper.GetTheme();
-            if (IsDarkTheme = theme.GetBaseTheme() == BaseTheme.Dark)
-            {
-                IsDarkTheme = false;
-                theme.SetBaseTheme(Theme.Light);
-            }
-            else
-            {
-                IsDarkTheme = true;
-                theme.SetBaseTheme(Theme.Dark);
-            }
-            paletteHelper.SetTheme(theme);
-        }
-        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
-        {
-            base.OnMouseLeftButtonDown(e);
-            DragMove();
-        }
-
-        private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
-        {
-            try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
-        }
-
-        private void minimizeWindow(object sender, MouseButtonEventArgs e)
-        {
-            try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
+            public Secretario() { }
         }
     }
 }
