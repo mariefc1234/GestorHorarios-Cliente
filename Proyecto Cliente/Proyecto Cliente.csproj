@@ -157,6 +157,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Cliente\PrincipalAlumno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\PrincipalMaestro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\PrinicipalSecretario.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -212,6 +220,12 @@
     </Compile>
     <Compile Include="Cliente\PrincipalAdministrador.xaml.cs">
       <DependentUpon>PrincipalAdministrador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PrincipalAlumno.xaml.cs">
+      <DependentUpon>PrincipalAlumno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PrincipalMaestro.xaml.cs">
+      <DependentUpon>PrincipalMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\PrinicipalSecretario.xaml.cs">
       <DependentUpon>PrinicipalSecretario.xaml</DependentUpon>

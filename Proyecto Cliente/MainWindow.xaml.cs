@@ -72,10 +72,7 @@ namespace Proyecto_Cliente
 
         private void Button_IniciarSesion(object sender, RoutedEventArgs e)
         {
-            int vMatricula = tbMatricula.Text.Length;
-            int vContrasenia = psbContrasenia.Password.Length;
-
-            if (vMatricula == 0 || vContrasenia == 0)
+            if (tbMatricula.Text.Length == 0 || psbContrasenia.Password.Length == 0)
             {
                 MessageBox.Show("Algunos campos estan vacios");
             }
@@ -88,7 +85,6 @@ namespace Proyecto_Cliente
                     var client = new RestClient(url);
                     var request = new RestRequest();
                     request.Method = Method.Post;
-
                     request.AddHeader("content-type", "application/json");
                     request.AddParameter("application/json", json, ParameterType.RequestBody);
                     var response = client.Execute(request);
@@ -102,12 +98,14 @@ namespace Proyecto_Cliente
                         switch (rol)
                         {
                             case 1:
-                                MessageBox.Show("Login alumno");
-                                //mandar token
+                                PrincipalAlumno pa = new PrincipalAlumno(tokenS);
+                                pa.Show();
+                                this.Close();
                                 break;
                             case 2:
-                                MessageBox.Show("Login Maestro");
-                                //mandar token
+                                PrincipalMaestro pm = new PrincipalMaestro(tokenS);
+                                pm.Show();
+                                this.Close();
                                 break;
                             case 3:
                                 Prinicipal_Secretario ps = new Prinicipal_Secretario(tokenS);
@@ -132,7 +130,6 @@ namespace Proyecto_Cliente
                 }
                 catch (Exception ex)
                 {
-
                     Console.Write(ex.Message);
                     MessageBox.Show("Error no se pudo establecer conexion con el servidor");
                 }

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.PrincipalMaestro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="PrincipalMaestro" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="348,10,348,392">Maestro</Label>
+
+        <Button Margin="248,86,248,332">Ver Horario</Button>
+        <Button Margin="248,146,248,272">Ver Materias</Button>
+        <Button Margin="248,209,248,209">Asignar Calificacion</Button>
+        <Button Click="Button_ClickSalir" Margin="649,358,42,60">Salir</Button>
+    </Grid>
+</Window>
