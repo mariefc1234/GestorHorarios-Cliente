@@ -26,10 +26,7 @@
             Click="Button_clickActivar">
             Activar
         </Button>
-        <Button
-            Margin="59,352,614,66"
-            Background="Gray"
-            Click="Button_clickSalir">
+        <Button Margin="59,352,614,66" Background="Gray">
             Salir -
         </Button>
 
