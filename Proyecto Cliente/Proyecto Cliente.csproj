@@ -121,11 +121,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cliente\A-AdministrarPeriodo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\A-AdministrarSalon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\A-AgregarMateria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-AgregarPeriodo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -138,6 +146,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\A-ModificarMateria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\A-ModificarPeriodo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -194,11 +206,17 @@
     <Compile Include="Cliente\A-AdministrarMateria.xaml.cs">
       <DependentUpon>A-AdministrarMateria.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\A-AdministrarPeriodo.xaml.cs">
+      <DependentUpon>A-AdministrarPeriodo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\A-AdministrarSalon.xaml.cs">
       <DependentUpon>A-AdministrarSalon.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\A-AgregarMateria.xaml.cs">
       <DependentUpon>A-AgregarMateria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-AgregarPeriodo.xaml.cs">
+      <DependentUpon>A-AgregarPeriodo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\A-AgregarSalon.xaml.cs">
       <DependentUpon>A-AgregarSalon.xaml</DependentUpon>
@@ -208,6 +226,9 @@
     </Compile>
     <Compile Include="Cliente\A-ModificarMateria.xaml.cs">
       <DependentUpon>A-ModificarMateria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\A-ModificarPeriodo.xaml.cs">
+      <DependentUpon>A-ModificarPeriodo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\A-ModificarSalon.xaml.cs">
       <DependentUpon>A-ModificarSalon.xaml</DependentUpon>

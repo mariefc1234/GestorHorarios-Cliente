@@ -107,5 +107,12 @@ namespace Proyecto_Cliente.Cliente
             mw.Show();
             this.Close();
         }
+
+        private void AdministrarPeriodo_Click(object sender, RoutedEventArgs e)
+        {
+            A_AdministrarPeriodo adp = new A_AdministrarPeriodo(tokenR);
+            adp.Show();
+            this.Close();
+        }
     }
 }

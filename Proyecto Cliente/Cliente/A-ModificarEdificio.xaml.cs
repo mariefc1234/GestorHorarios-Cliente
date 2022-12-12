@@ -29,7 +29,7 @@ namespace Proyecto_Cliente.Cliente
         string tokenR;
         public A_ModificarEdificio(int id, string nombre, int pisos, string tokenS)
         {
-            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/area");
+            client.BaseAddress = new Uri("http://127.0.0.1:5000/api/edificio");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Add("authtoken", tokenR);
             client.DefaultRequestHeaders.Accept.Add(

@@ -26,6 +26,7 @@ namespace Proyecto_Cliente.Cliente
         string tokenR;
         public AgregarEdificio(string tokenS)
         {
+            tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/edificio");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Add("authtoken", tokenR);
@@ -33,7 +34,6 @@ namespace Proyecto_Cliente.Cliente
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
                 );
             InitializeComponent();
-            tokenR = tokenS;
         }
 
         private async void GuardarEdificio(Edificio edificio)

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AgregarPeriodo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="A_AgregarPeriodo" Height="450" Width="800">
+    <Grid Height="450" Width="800">
+        <Label FontSize="25" Margin="303,0,303,406">Agregar Periodo</Label>
+
+        <Label FontSize="15" Margin="81,80,590,343">Fecha de inicio:</Label>
+        <Label FontSize="15" Margin="496,80,167,343">Fecha final:</Label>
+        <Label FontSize="15" Margin="81,201,589,219">Fecha Ordinario:</Label>
+        <Label FontSize="15" Margin="496,201,155,219">Fecha Extraordinario:</Label>
+
+        <DatePicker Name="dpFechaInicio" Margin="81,122,505,0" VerticalAlignment="Top"></DatePicker>
+        <DatePicker Name="dpFechaOrdinario" Margin="81,243,505,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dpFechaFin"  Margin="496,122,90,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dpFechaExtra" Margin="496,243,90,0" VerticalAlignment="Top"/>
+
+        <Button Foreground="Black" Margin="496,347,185,71" Click="Button_clickAgregar">Agregar</Button>
+        <Button Background="White" Foreground="Black"  Margin="628,347,53,71" Click="Button_clickSalir">Salir</Button>
+
+    </Grid>
+</Window>

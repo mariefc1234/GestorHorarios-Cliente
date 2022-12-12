@@ -114,6 +114,7 @@
                             TextWrapping="Wrap" />
                     </Button>
                     <Button
+                        
                         x:Name="administrarArea"
                         Width="150"
                         Height="50"
@@ -128,20 +129,41 @@
                             TextWrapping="Wrap" />
                     </Button>
                 </StackPanel>
-                <Button
+                <StackPanel
+                    Margin="0,20,0,0"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal" >
+                    <Button
                     x:Name="registrarSecretarios"
                     Width="150"
                     Height="50"
-                    Margin="0,20,0,0"
+                    Margin="0,0,15,0"
                     materialDesign:ButtonAssist.CornerRadius="10"
                     Click="registrarSecretarios_Click"
                     FontSize="15">
-                    <TextBlock
+                        <TextBlock
                         FontWeight="Normal"
                         Text="Registrar Secretarios"
                         TextAlignment="Center"
                         TextWrapping="Wrap" />
-                </Button>
+                    </Button>
+
+                    <Button
+                    x:Name="administrarPeriodo"
+                    Width="150"
+                    Height="50"
+                    Margin="0,0,0,0"
+                    materialDesign:ButtonAssist.CornerRadius="10"
+                    Click="AdministrarPeriodo_Click"
+                    FontSize="15">
+                        <TextBlock
+                        FontWeight="Normal"
+                        Text="Administrar Periodo"
+                        TextAlignment="Center"
+                        TextWrapping="Wrap" />
+                    </Button>
+                </StackPanel>
+
                 <StackPanel
                     Margin="0,230,0,6"
                     HorizontalAlignment="Right"
