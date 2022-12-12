@@ -60,7 +60,7 @@
                     HorizontalAlignment="Center"
                     FontSize="28"
                     FontWeight="Bold"
-                    Text="Agregar Salón" />
+                    Text="Modificar Salón" />
                 <Grid Height="300">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="400" />

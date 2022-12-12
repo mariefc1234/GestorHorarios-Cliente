@@ -181,6 +181,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Cliente\S-AdministrarGrupo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\S_RegistrarAlumno.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -197,6 +201,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="clases\Area.cs" />
+    <Compile Include="clases\Grupo.cs" />
     <Compile Include="Cliente\A-AdministrarArea.xaml.cs">
       <DependentUpon>A-AdministrarArea.xaml</DependentUpon>
     </Compile>
@@ -250,6 +256,9 @@
     </Compile>
     <Compile Include="Cliente\PrinicipalSecretario.xaml.cs">
       <DependentUpon>PrinicipalSecretario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\S-AdministrarGrupo.xaml.cs">
+      <DependentUpon>S-AdministrarGrupo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\S_RegistrarAlumno.xaml.cs">
       <DependentUpon>S_RegistrarAlumno.xaml</DependentUpon>

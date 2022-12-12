@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="A_ModificarPeriodo" Height="450" Width="800">
     <Grid Height="450" Width="800">
-        <Label FontSize="25" Margin="303,0,303,406">Agregar Periodo</Label>
+        <Label FontSize="25" Margin="289,0,289,406">Modificar Periodo</Label>
 
         <Label FontSize="15" Margin="81,80,590,343">Fecha de inicio:</Label>
         <Label FontSize="15" Margin="496,80,167,343">Fecha final:</Label>

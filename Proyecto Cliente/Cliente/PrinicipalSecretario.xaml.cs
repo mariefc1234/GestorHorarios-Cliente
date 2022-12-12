@@ -46,6 +46,13 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
+        private void Button_AdministrarGrupos(object sender, RoutedEventArgs e)
+        {
+            S_AdministrarGrupo adg = new S_AdministrarGrupo(tokenR);
+            adg.Show();
+            this.Close();
+        }
+
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();

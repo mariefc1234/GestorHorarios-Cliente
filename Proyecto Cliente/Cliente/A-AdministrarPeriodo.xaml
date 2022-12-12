@@ -13,6 +13,7 @@
         <Button Click="Button_clickBorrar" Background="LightCoral" Margin="636,352,37,66">Borrar Periodo</Button>
         <Button Click="Button_clickModificar" Margin="348,352,325,66">Modificar</Button>
         <Button Background="Purple" Margin="207,352,466,66" Click="Button_clickActivar">Activar</Button>
+        <Button Background="Gray" Margin="59,352,614,66" Click="Button_clickSalir">Salir</Button>
 
         <DataGrid Name="dgPeriodos" AutoGenerateColumns="False" IsReadOnly="True" Margin="29,95,37,150">
             <DataGrid.Columns>
