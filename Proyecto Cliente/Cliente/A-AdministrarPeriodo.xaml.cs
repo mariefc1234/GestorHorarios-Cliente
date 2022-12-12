@@ -89,6 +89,13 @@ namespace Proyecto_Cliente.Cliente
             }
         }
 
+        private void Button_ClickRegresar(object sender, RoutedEventArgs e)
+        {
+            PrincipalAdministrador psa = new PrincipalAdministrador(tokenR);
+            psa.Show();
+            this.Close();
+        }
+
         //Funcione de ayuda
         public async void GetPeriodos()
         {
