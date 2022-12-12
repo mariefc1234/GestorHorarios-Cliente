@@ -1,42 +1,64 @@
-﻿<Window x:Class="Proyecto_Cliente.Cliente.A_AdministrarPeriodo"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
-        mc:Ignorable="d"
-        Title="A_AdministrarPeriodo" Height="450" Width="800">
-    <Grid Height="450" Width="800">
-        <Label FontSize="25" Margin="348,10,348,396" >Periodo</Label>
+﻿<Window
+    x:Class="Proyecto_Cliente.Cliente.A_AdministrarPeriodo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="A_AdministrarPeriodo"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid Width="800" Height="450">
+        <Label Margin="348,10,348,396" FontSize="25">Periodo</Label>
 
-        <Button Click="Button_clickCrear" Margin="489,352,184,66">Crear Periodo</Button>
-        <Button Click="Button_clickBorrar" Background="LightCoral" Margin="636,352,37,66">Borrar Periodo</Button>
-        <Button Click="Button_clickModificar" Margin="348,352,325,66">Modificar</Button>
-        <Button Background="Purple" Margin="207,352,466,66" Click="Button_clickActivar">Activar</Button>
-        <Button Background="Gray" Margin="59,352,614,66" Click="Button_clickSalir">Salir</Button>
+        <Button Margin="489,352,184,66" Click="Button_clickCrear">Crear Periodo</Button>
+        <Button
+            Margin="636,352,37,66"
+            Background="LightCoral"
+            Click="Button_clickBorrar">
+            Borrar Periodo
+        </Button>
+        <Button Margin="348,352,325,66" Click="Button_clickModificar">Modificar</Button>
+        <Button
+            Margin="207,352,466,66"
+            Background="Purple"
+            Click="Button_clickActivar">
+            Activar
+        </Button>
+        <Button
+            Margin="59,352,614,66"
+            Background="Gray"
+            Click="Button_clickSalir">
+            Salir -
+        </Button>
 
-        <DataGrid Name="dgPeriodos" AutoGenerateColumns="False" IsReadOnly="True" Margin="29,95,37,150">
+        <DataGrid
+            Name="dgPeriodos"
+            Margin="29,95,37,150"
+            AutoGenerateColumns="False"
+            IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn
-                                Width="*"
-                                Binding="{Binding fechaInicio}"
-                                Header="Fecha Inicio" />
+                    Width="*"
+                    Binding="{Binding fechaInicio}"
+                    Header="Fecha Inicio" />
                 <DataGridTextColumn
-                                Width="*"
-                                Binding="{Binding fechaOrdinario}"
-                                Header="Fecha Ordinario" />
+                    Width="*"
+                    Binding="{Binding fechaOrdinario}"
+                    Header="Fecha Ordinario" />
                 <DataGridTextColumn
-                                Width="*"
-                                Binding="{Binding fechaExtra}"
-                                Header="Fecha Extraordinario" />
+                    Width="*"
+                    Binding="{Binding fechaExtra}"
+                    Header="Fecha Extraordinario" />
                 <DataGridTextColumn
-                                Width="*"
-                                Binding="{Binding fechaFin}"
-                                Header="Fecha Fin" />
+                    Width="*"
+                    Binding="{Binding fechaFin}"
+                    Header="Fecha Fin" />
                 <DataGridTextColumn
-                                Width="*"
-                                Binding="{Binding activo2}"
-                                Header="Activo" />
+                    Width="*"
+                    Binding="{Binding activo2}"
+                    Header="Activo" />
             </DataGrid.Columns>
         </DataGrid>
 
