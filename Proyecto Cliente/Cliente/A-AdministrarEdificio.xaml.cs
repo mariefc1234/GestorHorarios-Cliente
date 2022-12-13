@@ -29,6 +29,7 @@ namespace Proyecto_Cliente.Cliente
         string tokenR;
         public A_AdministrarEdificio(string tokenS)
         {
+            tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/edificio");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Add("authtoken", tokenR);
@@ -38,7 +39,6 @@ namespace Proyecto_Cliente.Cliente
 
             InitializeComponent();
             GetEdificios();
-            tokenR = tokenS;
         }
 
         public async void GetEdificios()

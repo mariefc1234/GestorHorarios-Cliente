@@ -1,0 +1,45 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.S_AsignarEstudiantesGrupo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="S_AsignarEstudiantesGrupo" Height="650" Width="1000">
+    <Grid Height="650" Width="1000">
+        <Label FontSize="25" Margin="354,10,354,595">Asignar alumnos grupo</Label>
+
+        <DataGrid x:Name="dgRecuperarAlumnos" AutoGenerateColumns="False" IsReadOnly="True" Margin="39,90,667,221">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding nombreCompleto}"
+                                Header="Nombre Completo" />
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding matricula}"
+                                Header="Matricula" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="dgAlumnosSeleccionados" AutoGenerateColumns="False" IsReadOnly="True" Margin="641,90,61,221">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding nombreCompleto}"
+                                Header="Nombre Completo" />
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding matricula}"
+                                Header="Matricula" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Click="Buttlon_ClickAgregar" Margin="426,180,426,438">Agregar --></Button>
+        <Button Click="Buttlon_ClickRegresar" Margin="426,260,426,358" Content="Regresar"></Button>
+        <Button Click="Buttlon_ClickGuardar" Margin="790,496,62,122" Content="Guardar"></Button>
+        <Button Click="Buttlon_ClickSalir" Margin="619,496,233,122" Content="Salir"></Button>
+    </Grid>
+</Window>

@@ -37,7 +37,59 @@ namespace Proyecto_Cliente.Cliente
             GetAreas();
             GetGrupos();
         }
-        
+
+
+        //Bottones
+        private void Button_clicCrear(object sender, RoutedEventArgs e)
+        {
+            S_AgregarGrupo agg = new S_AgregarGrupo(tokenR);
+            agg.Show();
+            this.Close();
+        }
+
+        private void Button_clicEliminar(object sender, RoutedEventArgs e)
+        {
+
+            Grupo grupoN = dgGrupos.SelectedItem as Grupo;
+            if (grupoN == null)
+            {
+                MessageBox.Show("Debes seleccionar un grupo primero");
+            }
+            else
+            {
+                MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show("Estas seguro?", "Confirmacion de eliminacion", System.Windows.MessageBoxButton.YesNo);
+                if (messageBoxResult == MessageBoxResult.Yes)
+                {
+                    this.EliminarGrupo(grupoN.id);
+                }
+            }
+        }
+
+        private void Button_clicSalir(object sender, RoutedEventArgs e)
+        {
+            Prinicipal_Secretario pcs = new Prinicipal_Secretario(tokenR);
+            pcs.Show();
+            this.Close();
+        }
+
+        private void Button_clicAsignar(object sender, RoutedEventArgs e)
+        {
+            Grupo grupoN = dgGrupos.SelectedItem as Grupo;
+            if (grupoN == null)
+            {
+                MessageBox.Show("Debes seleccionar un grupo primero");
+            }
+            else
+            {
+                S_AsignarEstudiantesGrupo aseg = new S_AsignarEstudiantesGrupo(tokenR, grupoN.semestre, grupoN.id);
+                aseg.Show();
+                this.Close();
+            }
+        }
+
+
+
+        //Funciones de ayuda
         public async void GetGrupos()
         {
             var response = await client.GetStringAsync("grupo");
@@ -53,9 +105,9 @@ namespace Proyecto_Cliente.Cliente
                 string vBloque = (string)datosGrupo.SelectToken("bloque");
                 string vNombreArea = "";
 
-                foreach(var area in listaArea)
+                foreach (var area in listaArea)
                 {
-                    if(vIdArea == area.id)
+                    if (vIdArea == area.id)
                     {
                         vNombreArea = area.nombre;
                     }
@@ -86,11 +138,32 @@ namespace Proyecto_Cliente.Cliente
 
                 listaArea.Add(new Area()
                 {
-                    id=idArea,
-                    nombre =vNombreArea
+                    id = idArea,
+                    nombre = vNombreArea
                 });
             }
         }
 
+        private async void EliminarGrupo(int grupoId)
+        {
+            try
+            {
+                var response = await client.DeleteAsync("grupo/" + grupoId);
+
+                if (response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Grupo eliminado correctamente");
+                    GetGrupos();
+                }
+                else
+                {
+                    MessageBox.Show("Error al eliminar");
+                }
+            }
+            catch (HttpRequestException he)
+            {
+                MessageBox.Show("No se pudo conectar con la base de datos");
+            }
+        }
     }
 }

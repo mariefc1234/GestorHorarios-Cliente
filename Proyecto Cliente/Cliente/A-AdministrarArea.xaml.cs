@@ -41,7 +41,7 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_ClickMostrarArea(object sender, RoutedEventArgs e)
         {
-            Area areaN = dgArea.SelectedItem as Area;
+            AreaAgregar areaN = dgArea.SelectedItem as AreaAgregar;
             if (areaN == null)
             {
                 MessageBox.Show("Debes seleccionar una area primero");
@@ -56,7 +56,7 @@ namespace Proyecto_Cliente.Cliente
         private void Button_ClickModificarArea(object sender, RoutedEventArgs e)
         {
 
-            Area areaN = dgArea.SelectedItem as Area;
+            AreaAgregar areaN = dgArea.SelectedItem as AreaAgregar;
             if (areaN == null)
             {
                 MessageBox.Show("Debes seleccionar una area primero");
@@ -74,7 +74,7 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_ClickEliminar(object sender, RoutedEventArgs e)
         {
-            Area areaN = dgArea.SelectedItem as Area;
+            AreaAgregar areaN = dgArea.SelectedItem as AreaAgregar;
             if (areaN == null)
             {
                 MessageBox.Show("Debes seleccionar una area primero");
@@ -88,16 +88,17 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_ClickAgregarArea(object sender, RoutedEventArgs e)
         {
-            if (tbNombreArea.Text.Length == 0)
+            if (tbNombreArea.Text.Length == 0 || tbSemestre.Text.Length == 0)
             {
                 MessageBox.Show("Ingresa datos");
             }
             else
             {
-                var area = new Area()
+                var area = new AreaAgregar()
                 {
                     idArea = Convert.ToInt32(tbId.Text),
-                    nombre = tbNombreArea.Text
+                    nombre = tbNombreArea.Text,
+                    semestre = Convert.ToInt32(tbSemestre.Text)
                 };
                 if (area.idArea == 0)
                 {
@@ -122,12 +123,14 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
-        private class Area
+        private class AreaAgregar
         {
             public int idArea { get; set; }
             public string nombre { get; set; }
 
-            public Area()
+            public int semestre { get; set; }
+
+            public AreaAgregar()
             {
 
             }
@@ -138,18 +141,18 @@ namespace Proyecto_Cliente.Cliente
             var response = await client.GetStringAsync("area");
             JObject json = JObject.Parse(response);
             var data = json.SelectToken("data");
-            List<Area> listaAreas = new List<Area>();
+            List<AreaAgregar> listaAreas = new List<AreaAgregar>();
 
             foreach (var datosArea in data)
             {
                 int idF = (int)datosArea.SelectToken("id");
                 string nombreF = (string)datosArea.SelectToken("nombre");
-                listaAreas.Add(new Area() { idArea = idF, nombre = nombreF });
+                listaAreas.Add(new AreaAgregar() { idArea = idF, nombre = nombreF });
             }
             dgArea.ItemsSource = listaAreas;
         }
 
-        private async void GuardarArea(Area area)
+        private async void GuardarArea(AreaAgregar area)
         {
             try
             {
@@ -161,7 +164,7 @@ namespace Proyecto_Cliente.Cliente
             }
         }
 
-        private async void ActualizarArea(Area area)
+        private async void ActualizarArea(AreaAgregar area)
         {
             try
             {
@@ -187,10 +190,10 @@ namespace Proyecto_Cliente.Cliente
             }
         }
 
+
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
-
         private void themeToggle_Click(object sender, RoutedEventArgs e)
         {
             ITheme theme = paletteHelper.GetTheme();
@@ -211,12 +214,10 @@ namespace Proyecto_Cliente.Cliente
             base.OnMouseLeftButtonDown(e);
             DragMove();
         }
-
         private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
         {
             try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
-
         private void minimizeWindow(object sender, MouseButtonEventArgs e)
         {
             try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }

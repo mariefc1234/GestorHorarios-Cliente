@@ -8,8 +8,13 @@
         Title="S_AdministrarGrupo" Height="550" Width="900">
     <Grid Height="550" Width="900">
         <Label FontSize="25" Margin="400,10,400,496">Grupos</Label>
-
-        <DataGrid Name="dgGrupos" AutoGenerateColumns="False" IsReadOnly="True" Margin="50,88,415,123">
+        <Button Click="Button_clicSalir" Margin="50,446,699,72">Salir</Button>
+        <Button Click="Button_clicCrear" Margin="618,90,131,428">Crear</Button>
+        <Button Click="Button_clicEliminar" Margin="618,143,131,375" Cursor="Hand">Eliminar</Button>
+        <Button Click="Button_clicAsignar" Margin="618,197,131,321" Cursor="Hand">Asignar estudiantes a grupo</Button>
+        
+        
+        <DataGrid Name="dgGrupos" AutoGenerateColumns="False" IsReadOnly="True" Margin="50,88,347,123">
             <DataGrid.Columns>
                 <DataGridTextColumn
                                 Width="*"

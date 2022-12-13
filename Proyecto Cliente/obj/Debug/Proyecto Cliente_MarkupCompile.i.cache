@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
-221369558558
+24-1440170771
 
-29-296511652
+31787516861
 34-493734449
-Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarPeriodo.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarPeriodo.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarPeriodo.xaml;Cliente\A-ModificarSalon.xaml;Cliente\A-RegistrarSecretario.xaml;Cliente\AgregarEdificio.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrincipalAlumno.xaml;Cliente\PrincipalMaestro.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S-AdministrarGrupo.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
+Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarPeriodo.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarPeriodo.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarPeriodo.xaml;Cliente\A-ModificarSalon.xaml;Cliente\A-RegistrarSecretario.xaml;Cliente\AgregarEdificio.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrincipalAlumno.xaml;Cliente\PrincipalMaestro.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S-AdministrarGrupo.xaml;Cliente\S-AgregarGrupo.xaml;Cliente\S-AsignarEstudiantesGrupo.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
 
-False
+True
 
