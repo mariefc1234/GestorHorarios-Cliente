@@ -18,12 +18,13 @@ namespace Proyecto_Cliente.Cliente
     public partial class PrincipalMaestro : Window
     {
         string tokenR;
-
         public PrincipalMaestro(string tokenS)
         {
             tokenR = tokenS;
             InitializeComponent();
         }
+
+        //Bottones
 
         private void Button_ClickSalir(object sender, RoutedEventArgs e)
         {
@@ -31,11 +32,16 @@ namespace Proyecto_Cliente.Cliente
             mw.Show();
             this.Close();
         }
+        private void Button_ClickVerMaterias(object sender, RoutedEventArgs e)
+        {
+            M_VerMaterias vmt = new M_VerMaterias(tokenR);
+            vmt.Show();
+            this.Close();
+        }
 
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
-
         private void themeToggle_Click(object sender, RoutedEventArgs e)
         {
             ITheme theme = paletteHelper.GetTheme();
@@ -56,15 +62,14 @@ namespace Proyecto_Cliente.Cliente
             base.OnMouseLeftButtonDown(e);
             DragMove();
         }
-
         private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
         {
             try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
-
         private void minimizeWindow(object sender, MouseButtonEventArgs e)
         {
             try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
+
     }
 }

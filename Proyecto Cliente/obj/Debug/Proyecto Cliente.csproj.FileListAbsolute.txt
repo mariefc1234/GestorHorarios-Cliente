@@ -359,3 +359,5 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.baml

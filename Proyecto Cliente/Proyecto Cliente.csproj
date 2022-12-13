@@ -165,6 +165,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Cliente\M-VerMaterias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\PrincipalAdministrador.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -260,6 +264,9 @@
     </Compile>
     <Compile Include="Cliente\AgregarEdificio.xaml.cs">
       <DependentUpon>AgregarEdificio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\M-VerMaterias.xaml.cs">
+      <DependentUpon>M-VerMaterias.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\PrincipalAdministrador.xaml.cs">
       <DependentUpon>PrincipalAdministrador.xaml</DependentUpon>

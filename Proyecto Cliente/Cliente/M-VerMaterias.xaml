@@ -1,0 +1,29 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.M_VerMaterias"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="M_VerMaterias" Height="600" Width="1200">
+    <Grid Height="600" Width="1200">
+        <Label FontSize="30" Margin="463,10,463,540">Materias Asignadas</Label>
+
+        <Label Name="lbLunes" Margin="89,130,875,76" ></Label>
+        <Label Margin="147,80,875,475" FontSize="20" >Lunes</Label>
+
+        <Label Name="lbMartes" Margin="325,130,697,76" ></Label>
+        <Label Margin="325,80,697,475" FontSize="20" >Martes</Label>
+
+        <Label x:Name="lbMiercoles" Margin="503,130,519,76" />
+        <Label Margin="503,80,519,475" FontSize="20" Content="Miercoles" />
+
+        <Label x:Name="lbJueves" Margin="681,130,341,76" />
+        <Label Margin="686,80,336,475" FontSize="20" Content="Jueves" />
+
+        <Label x:Name="lbViernes" Margin="859,130,163,76" />
+        <Label Margin="864,80,158,475" FontSize="20" Content="Viernes" />
+
+
+    </Grid>
+</Window>
