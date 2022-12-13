@@ -123,11 +123,21 @@ namespace Proyecto_Cliente.Cliente
         {
             try
             {
-                await client.DeleteAsync("materia/" + idMateria);
-                GetMaterias();
+                var response = await client.DeleteAsync("materia/" + idMateria);
+
+                if (response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Materia eliminada correctamente");
+                    GetMaterias();
+                }
+                else
+                {
+                    MessageBox.Show("Error al eliminar materia");
+                }
             }
             catch (HttpRequestException he)
             {
+                Console.WriteLine(he);
                 MessageBox.Show("No se pudo conectar con la base de datos");
             }
         }

@@ -156,14 +156,25 @@ namespace Proyecto_Cliente.Cliente
         {
             try
             {
-                await client.DeleteAsync("salon/" + salonId);
-                GetSalones();
+                var response = await client.DeleteAsync("salon/" + salonId);
+
+                if (response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Salon eliminado correctamente");
+                    GetSalones();
+                }
+                else
+                {
+                    MessageBox.Show("Error al eliminar");
+                }
             }
             catch (HttpRequestException he)
             {
+                Console.WriteLine(he);
                 MessageBox.Show("No se pudo conectar con la base de datos");
             }
         }
+
 
         //Clases
         public class Salon
@@ -185,6 +196,7 @@ namespace Proyecto_Cliente.Cliente
             public int pisos { get; set; }
             public Edificio() { }
         }
+
 
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }

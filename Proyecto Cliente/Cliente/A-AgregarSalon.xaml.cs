@@ -36,6 +36,8 @@ namespace Proyecto_Cliente.Cliente
             GetEdificios();
         }
 
+
+        //Bottones
         private void Button_ClickGuardar(object sender, RoutedEventArgs e)
         {
             Edificio edificioN = dgEdificios.SelectedItem as Edificio;
@@ -67,13 +69,13 @@ namespace Proyecto_Cliente.Cliente
                     };
                     this.GuardarSalon(salon);
                 }
-                catch (FormatException FE)
+                catch (FormatException fe)
                 {
+                    Console.WriteLine(fe);
                     MessageBox.Show("Cupo total solo adminite enteros");
                 }
             }
         }
-
         private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
             A_AdministrarSalon ads = new A_AdministrarSalon(tokenR);
@@ -81,25 +83,32 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
+
+        //Funciones de ayuda
         private async void GuardarSalon(Salon salon)
         {
             try
             {
-                await client.PostAsJsonAsync("salon", salon);
-                MessageBox.Show("Se guardo con exito");
-                dgEdificios.SelectedItem = null;
-                tbCupo.Text = "";
-                tbNombre.Text = "";
-                cbProyector.SelectedItem = null;
-
+                var response = await client.PostAsJsonAsync("salon", salon);
+                if(response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Se guardo con exito");
+                    dgEdificios.SelectedItem = null;
+                    tbCupo.Text = "";
+                    tbNombre.Text = "";
+                    cbProyector.SelectedItem = null;
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar");
+                }
             }
             catch (HttpRequestException he)
             {
+                Console.WriteLine(he);
                 MessageBox.Show("No se pudo conectar con la base de datos");
             }
         }
-
-
         public async void GetEdificios()
         {
             clientEdificios.BaseAddress = new Uri("http://127.0.0.1:5000/api/edificio");
@@ -125,6 +134,8 @@ namespace Proyecto_Cliente.Cliente
             dgEdificios.ItemsSource = listaEdificios;
         }
 
+
+        //Clases
         public class Salon
         {
             public string nombre { get; set; }
@@ -134,7 +145,6 @@ namespace Proyecto_Cliente.Cliente
 
             public Salon(){ }
         }
-
         public class Edificio
         {
             public int id { get; set; }
@@ -143,10 +153,10 @@ namespace Proyecto_Cliente.Cliente
             public Edificio() { }
         }
 
+
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
-
         private void themeToggle_Click(object sender, RoutedEventArgs e)
         {
             ITheme theme = paletteHelper.GetTheme();
@@ -167,12 +177,10 @@ namespace Proyecto_Cliente.Cliente
             base.OnMouseLeftButtonDown(e);
             DragMove();
         }
-
         private void btnCloseWindow_Click(object sender, MouseButtonEventArgs e)
         {
             try { this.Close(); } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
-
         private void minimizeWindow(object sender, MouseButtonEventArgs e)
         {
             try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }

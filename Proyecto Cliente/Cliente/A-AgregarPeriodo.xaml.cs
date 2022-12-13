@@ -35,6 +35,7 @@ namespace Proyecto_Cliente.Cliente
             InitializeComponent();
         }
 
+        //Bottones
         private void Button_clickGuardar(object sender, RoutedEventArgs e)
         {
             try
@@ -58,7 +59,15 @@ namespace Proyecto_Cliente.Cliente
                 Console.WriteLine(io);
             }
         }
+        private void Button_clickSalir(object sender, RoutedEventArgs e)
+        {
+            A_AdministrarPeriodo adp = new A_AdministrarPeriodo(tokenR);
+            adp.Show();
+            this.Close();
+        }
 
+
+        //Funciones de ayuda
         private async void GuardarPeriodo(Periodo periodo)
         {
             try
@@ -84,22 +93,6 @@ namespace Proyecto_Cliente.Cliente
             }
         }
 
-        private void Button_clickSalir(object sender, RoutedEventArgs e)
-        {
-            A_AdministrarPeriodo adp = new A_AdministrarPeriodo(tokenR);
-            adp.Show();
-            this.Close();
-        }
-
-        public class Periodo
-        {
-            public string fechaInicio { get; set; }
-            public string fechaFin { get; set; }
-            public string fechaOrdinario { get; set; }
-            public string fechaExtra { get; set; }
-            public Periodo() { }
-        }
-
         public String transformarFecha(String fecha)
         {
             String fechaFinal;
@@ -113,6 +106,16 @@ namespace Proyecto_Cliente.Cliente
             año = valores[2];
             fechaFinal = año + "/" + mes + "/" + dia;
             return fechaFinal;
+        }
+
+        //Clases
+        public class Periodo
+        {
+            public string fechaInicio { get; set; }
+            public string fechaFin { get; set; }
+            public string fechaOrdinario { get; set; }
+            public string fechaExtra { get; set; }
+            public Periodo() { }
         }
 
         // Funciones de la ventana

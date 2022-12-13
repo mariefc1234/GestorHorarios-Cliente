@@ -46,16 +46,26 @@ namespace Proyecto_Cliente.Cliente
             {
                 try
                 {
-                    var materia = new Materia()
+                    int semestreVar = Convert.ToInt32(tbSemestre.Text);
+
+                    if (semestreVar > 6)
                     {
-                        nombre = tbNombre.Text,
-                        semestre = Convert.ToInt32(tbSemestre.Text),
-                    };
-                    this.GuardarMateria(materia);
+                        MessageBox.Show("El semestre solo puede estar entre los rangos 1 y 6 ");
+                    }
+                    else
+                    {
+                        var materia = new Materia()
+                        {
+                            nombre = tbNombre.Text,
+                            semestre = Convert.ToInt32(tbSemestre.Text),
+                        };
+                        this.GuardarMateria(materia);
+                    }
                 }
-                catch (FormatException FE)
+                catch (FormatException fe)
                 {
-                    MessageBox.Show("Semestre solo admite enteros");
+                    Console.WriteLine(fe);
+                    MessageBox.Show("Semestre solo puede recibir enteros");
                 }
             }
         }
@@ -72,14 +82,22 @@ namespace Proyecto_Cliente.Cliente
         {
             try
             {
-                await client.PostAsJsonAsync("materia", materia);
-                MessageBox.Show("Se guardo con exito");
+                var response = await client.PostAsJsonAsync("materia", materia);
 
-                tbNombre.Text = "";
-                tbSemestre.Text = "";
+                if (response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Se guardo con exito");
+                    tbNombre.Text = "";
+                    tbSemestre.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar");
+                }
             }
             catch (HttpRequestException he)
             {
+                Console.WriteLine(he);
                 MessageBox.Show("No se pudo conectar con la base de datos");
             }
         }

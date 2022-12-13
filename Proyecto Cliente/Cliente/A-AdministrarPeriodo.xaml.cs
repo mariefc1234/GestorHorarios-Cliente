@@ -88,7 +88,6 @@ namespace Proyecto_Cliente.Cliente
                 this.Close();
             }
         }
-
         private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
             PrincipalAdministrador psa = new PrincipalAdministrador(tokenR);

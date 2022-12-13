@@ -22,7 +22,6 @@
                                 Header="Matricula" />
             </DataGrid.Columns>
         </DataGrid>
-
         <DataGrid x:Name="dgAlumnosSeleccionados" AutoGenerateColumns="False" IsReadOnly="True" Margin="641,90,61,221">
 
             <DataGrid.Columns>

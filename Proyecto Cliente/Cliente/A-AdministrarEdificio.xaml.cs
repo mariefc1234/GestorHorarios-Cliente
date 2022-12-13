@@ -41,45 +41,7 @@ namespace Proyecto_Cliente.Cliente
             GetEdificios();
         }
 
-        public async void GetEdificios()
-        {
-            var response = await client.GetStringAsync("edificio");
-            JObject json = JObject.Parse(response);
-            var data = json.SelectToken("data");
-            List<Edificio> listaEdificios = new List<Edificio>();
-
-            foreach (var datosEdificio in data)
-            {
-                int idEdificio = (int)datosEdificio.SelectToken("id");
-                string nombreEdificio = (string)datosEdificio.SelectToken("nombre");
-                int pisosEdificio = (int)datosEdificio.SelectToken("pisos");
-
-                listaEdificios.Add(new Edificio() { id = idEdificio, nombre = nombreEdificio,pisos = pisosEdificio });
-            }
-            dgEdificios.ItemsSource = listaEdificios;
-        }
-
-        private async void EliminarEdificio(int edificioId)
-        {
-            try
-            {
-                await client.DeleteAsync("edificio/" + edificioId);
-                GetEdificios();
-            }
-            catch (HttpRequestException he)
-            {
-                MessageBox.Show("No se pudo conectar con la base de datos");
-            }
-        }
-
-        public class Edificio
-        {
-            public int id { get; set; }
-            public string nombre { get; set; }
-            public int pisos { get; set; }
-            public Edificio() { }
-        }
-
+        //Bottones
         private void Button_ClickMostrarDetalles(object sender, RoutedEventArgs e)
         {
             Edificio edificioN = dgEdificios.SelectedItem as Edificio;
@@ -122,7 +84,12 @@ namespace Proyecto_Cliente.Cliente
             }
             else
             {
-                this.EliminarEdificio(edificioN.id);
+                MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show("Estas seguro?", "Confirmacion de eliminacion", System.Windows.MessageBoxButton.YesNo);
+                if (messageBoxResult == MessageBoxResult.Yes)
+                {
+                    this.EliminarEdificio(edificioN.id);
+                    MessageBox.Show("Edificio eliminado correctamente");
+                }
             }
         }
 
@@ -138,6 +105,59 @@ namespace Proyecto_Cliente.Cliente
             AgregarEdificio age = new AgregarEdificio(tokenR);
             age.Show();
             this.Close();
+        }
+
+
+        //Funciones de ayuda
+        private async void EliminarEdificio(int edificioId)
+        {
+            try
+            {
+                var response = await client.DeleteAsync("edificio/" + edificioId);
+
+                if (response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Edificio eliminado con exito");
+                    GetEdificios();
+                }
+                else
+                {
+                    MessageBox.Show("Error al eliminar");
+                }
+            }
+            catch (HttpRequestException he)
+            {
+                Console.WriteLine(he);
+                MessageBox.Show("No se pudo conectar con la base de datos");
+            }
+        }
+
+        public async void GetEdificios()
+        {
+            var response = await client.GetStringAsync("edificio");
+            JObject json = JObject.Parse(response);
+            var data = json.SelectToken("data");
+            List<Edificio> listaEdificios = new List<Edificio>();
+
+            foreach (var datosEdificio in data)
+            {
+                int idEdificio = (int)datosEdificio.SelectToken("id");
+                string nombreEdificio = (string)datosEdificio.SelectToken("nombre");
+                int pisosEdificio = (int)datosEdificio.SelectToken("pisos");
+
+                listaEdificios.Add(new Edificio() { id = idEdificio, nombre = nombreEdificio, pisos = pisosEdificio });
+            }
+            dgEdificios.ItemsSource = listaEdificios;
+        }
+
+
+        //clases
+        public class Edificio
+        {
+            public int id { get; set; }
+            public string nombre { get; set; }
+            public int pisos { get; set; }
+            public Edificio() { }
         }
 
         // Funciones de la ventana

@@ -39,6 +39,7 @@ namespace Proyecto_Cliente.Cliente
             GetAreas();
         }
 
+        //bottones
         private void Button_ClickMostrarArea(object sender, RoutedEventArgs e)
         {
             AreaAgregar areaN = dgArea.SelectedItem as AreaAgregar;
@@ -81,8 +82,11 @@ namespace Proyecto_Cliente.Cliente
             }
             else
             {
-                int id = areaN.idArea;
-                this.EliminarArea(areaN.idArea);
+                MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show("Estas seguro?", "Confirmacion de eliminacion", System.Windows.MessageBoxButton.YesNo);
+                if (messageBoxResult == MessageBoxResult.Yes)
+                {
+                    this.EliminarArea(areaN.idArea);
+                }
             }
         }
 
@@ -123,6 +127,8 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
+
+        //clases
         private class AreaAgregar
         {
             public int idArea { get; set; }
@@ -136,6 +142,8 @@ namespace Proyecto_Cliente.Cliente
             }
         }
 
+
+        //Funcione sde ayuda
         private async void GetAreas()
         {
             var response = await client.GetStringAsync("area");
@@ -161,6 +169,7 @@ namespace Proyecto_Cliente.Cliente
             catch (HttpRequestException he)
             {
                 MessageBox.Show("No se pudo conectar con la base de datos");
+                Console.WriteLine(he);
             }
         }
 
@@ -174,6 +183,7 @@ namespace Proyecto_Cliente.Cliente
             catch (HttpRequestException he)
             {
                 MessageBox.Show("No se pudo conectar con la base de datos");
+                Console.WriteLine(he);
             }
         }
 
@@ -181,12 +191,21 @@ namespace Proyecto_Cliente.Cliente
         {
             try
             {
-                await client.DeleteAsync("area/" + areaId);
-                GetAreas();
+                var response = await client.DeleteAsync("area/" + areaId);
+                if (response.StatusCode.ToString() == "OK")
+                {
+                    MessageBox.Show("Area eliminada correctamente");
+                    GetAreas();
+                }
+                else
+                {
+                    MessageBox.Show("Error al eliminar");
+                }
             }
             catch (HttpRequestException he)
             {
                 MessageBox.Show("No se pudo conectar con la base de datos");
+                Console.WriteLine(he);
             }
         }
 
