@@ -359,3 +359,12 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.baml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.baml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.baml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
