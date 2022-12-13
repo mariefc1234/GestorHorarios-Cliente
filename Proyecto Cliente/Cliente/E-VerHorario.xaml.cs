@@ -13,16 +13,14 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using static Proyecto_Cliente.Cliente.S_AsignarEstudiantesGrupo;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace Proyecto_Cliente.Cliente
 {
-    public partial class M_VerMaterias : Window
+    public partial class E_VerHorario : Window
     {
         HttpClient client = new HttpClient();
         string tokenR;
-        public M_VerMaterias(string tokenS)
+        public E_VerHorario(string tokenS)
         {
             tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/horario");
@@ -32,12 +30,12 @@ namespace Proyecto_Cliente.Cliente
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
                 );
             InitializeComponent();
-            GetClases();
+            GetHorario();
         }
 
-        public async void GetClases()
+        public async void GetHorario()
         {
-            var response = await client.GetStringAsync("horario/profesor");
+            var response = await client.GetStringAsync("horario/estudiante");
             JObject json = JObject.Parse(response);
             var data = json.SelectToken("data");
             var lunes = data.SelectToken("lunes");
@@ -120,8 +118,8 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
-            PrincipalMaestro psm = new PrincipalMaestro(tokenR);
-            psm.Show();
+            PrincipalAlumno psa = new PrincipalAlumno(tokenR);
+            psa.Show();
             this.Close();
         }
     }

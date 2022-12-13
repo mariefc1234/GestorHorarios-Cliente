@@ -73,7 +73,8 @@
                         Height="50"
                         Margin="0,0,15,0"
                         materialDesign:ButtonAssist.CornerRadius="10"
-                        FontSize="15">
+                        FontSize="15"
+                        Click="Button_ClickVerHorario">
                         <TextBlock
                             FontWeight="Normal"
                             Text="Ver Horario"

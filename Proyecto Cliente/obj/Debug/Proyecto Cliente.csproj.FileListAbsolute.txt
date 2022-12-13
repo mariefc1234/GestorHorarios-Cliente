@@ -1,193 +1,25 @@
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe.config
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.pdb
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.AssemblyReference.cache
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.SuggestedBindingRedirects.cache
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\MainWindow.g.cs
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\App.g.cs
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.cache
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.lref
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\MainWindow.baml
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.g.resources
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto_Cliente.Properties.Resources.resources
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.GenerateResource.cache
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CoreCompileInputs.cache
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Cliente\CrearBloque.g.cs
-D:\Proyecto Desarrollo\Proyecto Cliente\Proyecto Cliente\obj\Debug\Cliente\CrearBloque.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.AssemblyReference.cache
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.SuggestedBindingRedirects.cache
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\AgregarSalon.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\AgregarSecretario.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\AsignarCalificacion.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\BuscarEE.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\ConsultarCalificaciones.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\ConsultarHorarioAlumno.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\CrearBloque.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\SeleccionarEdificio.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\VerHorarioMaestros.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\VerSalones.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\MainWindow.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\App.g.cs
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.cache
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.lref
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe.config
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Proyecto Cliente.pdb
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\AgregarSalon.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\AgregarSecretario.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\AsignarCalificacion.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\BuscarEE.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\ConsultarCalificaciones.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\ConsultarHorarioAlumno.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\CrearBloque.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\SeleccionarEdificio.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\VerHorarioMaestros.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Cliente\VerSalones.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\MainWindow.baml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.g.resources
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto_Cliente.Properties.Resources.resources
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.GenerateResource.cache
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CoreCompileInputs.cache
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Newtonsoft.Json.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\RestSharp.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Buffers.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Memory.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Text.Json.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.ValueTuple.dll
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Newtonsoft.Json.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.pdb
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\RestSharp.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Buffers.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Memory.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Text.Json.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\bin\Debug\System.ValueTuple.xml
-D:\Proyecto Desarrollo\GestorHorarios-Client\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.AssemblyReference.cache
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.SuggestedBindingRedirects.cache
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarArea.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarExperiencia.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarMaestro.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarSalon.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarSecretario.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarCalificacion.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarClase.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarEstudianteBloque-2.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarEstudianteBloque.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\BuscarEE.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\BuscarSalones-Maestros.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\ConsultarCalificaciones.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\ConsultarHorarioAlumno.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\CrearBloque.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\CrearPeriodo.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\SeleccionarEdificio.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\VerHorarioMaestros.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\VerSalones.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\MainWindow.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\App.g.cs
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.cache
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.lref
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe.config
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Proyecto Cliente.pdb
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Newtonsoft.Json.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\RestSharp.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Buffers.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Memory.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Text.Json.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.ValueTuple.dll
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Newtonsoft.Json.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.pdb
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\RestSharp.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Buffers.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Memory.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Text.Json.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\bin\Debug\System.ValueTuple.xml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarSalon.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarSecretario.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarCalificacion.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\BuscarEE.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\ConsultarCalificaciones.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\ConsultarHorarioAlumno.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\CrearBloque.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\SeleccionarEdificio.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\VerHorarioMaestros.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\VerSalones.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\MainWindow.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarArea.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarExperiencia.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AgregarMaestro.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarClase.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarEstudianteBloque-2.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\AsignarEstudianteBloque.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\BuscarSalones-Maestros.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\CrearPeriodo.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.baml
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.g.resources
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto_Cliente.Properties.Resources.resources
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.GenerateResource.cache
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CoreCompileInputs.cache
-D:\Proyecto Desarrollo\ayuda x2\GestorHorarios-Client-91dec19356f575b6c1a6430262faf16737014c81\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.AssemblyReference.cache
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.SuggestedBindingRedirects.cache
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.cache
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.lref
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe.config
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.pdb
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\RestSharp.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Buffers.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Memory.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Json.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.ValueTuple.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.dll
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.pdb
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.pdb
@@ -195,181 +27,85 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\RestSharp.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Buffers.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Memory.xml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Json.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.ValueTuple.xml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.xml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.AssemblyReference.cache
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.SuggestedBindingRedirects.cache
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarMateria.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarPeriodo.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarMateria.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarPeriodo.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarMateria.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarPeriodo.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\E-VerHorario.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAlumno.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalMaestro.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AdministrarGrupo.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.cache
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.lref
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarMateria.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarPeriodo.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarMateria.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarPeriodo.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarMateria.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarPeriodo.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\E-VerHorario.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAlumno.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalMaestro.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AdministrarGrupo.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.g.resources
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto_Cliente.Properties.Resources.resources
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.GenerateResource.cache
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CoreCompileInputs.cache
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.dll
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.dll
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.xml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.xml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarMateria.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarMateria.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarMateria.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarMateria.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarMateria.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarMateria.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe.config
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.exe
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Proyecto Cliente.pdb
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\RestSharp.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Buffers.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Memory.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Json.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.ValueTuple.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.dll
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.pdb
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.pdb
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.pdb
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\Newtonsoft.Json.Bson.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\RestSharp.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Buffers.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Memory.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Net.Http.Formatting.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Numerics.Vectors.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Encodings.Web.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Text.Json.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.ValueTuple.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\System.Web.Http.xml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.AssemblyReference.cache
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.SuggestedBindingRedirects.cache
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarMateria.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarMateria.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarMateria.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.cache
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente_MarkupCompile.lref
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarArea.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarEdificio.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarMateria.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarSalon.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarMateria.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarSalon.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarEdificio.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarMateria.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarSalon.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\AgregarEdificio.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAdministrador.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrinicipalSecretario.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-RegistrarMaestro.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\MainWindow.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.g.resources
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto_Cliente.Properties.Resources.resources
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.GenerateResource.cache
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CoreCompileInputs.cache
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.csproj.CopyComplete
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.dll
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.dll
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignColors.pdb
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.pdb
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\bin\Debug\MaterialDesignThemes.Wpf.xml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\App.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S_RegistrarAlumno.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarPeriodo.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarPeriodo.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAlumno.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalMaestro.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarPeriodo.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarPeriodo.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAlumno.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalMaestro.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarPeriodo.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarPeriodo.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AdministrarGrupo.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AdministrarGrupo.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarPeriodo.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarPeriodo.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarPeriodo.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAlumno.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalMaestro.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AdministrarGrupo.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AdministrarPeriodo.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-AgregarPeriodo.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-ModificarPeriodo.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\A-RegistrarSecretario.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalAlumno.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\PrincipalMaestro.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AdministrarGrupo.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
-<<<<<<< HEAD
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.g.cs
-D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.baml
-=======
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.baml
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
->>>>>>> c99d5907a2c4c3f64e0c5a467627430821a2349a
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.exe
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Proyecto Cliente.pdb
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-VerHorario.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-VerHorarioSalon.g.cs
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-VerHorario.baml
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-VerHorarioSalon.baml

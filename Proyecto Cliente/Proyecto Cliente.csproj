@@ -165,6 +165,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Cliente\E-VerHorario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\M-VerMaterias.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -202,6 +206,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\S-AsignarHorario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\S-VerHorario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\S-VerHorarioSalon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -265,6 +277,9 @@
     <Compile Include="Cliente\AgregarEdificio.xaml.cs">
       <DependentUpon>AgregarEdificio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\E-VerHorario.xaml.cs">
+      <DependentUpon>E-VerHorario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\M-VerMaterias.xaml.cs">
       <DependentUpon>M-VerMaterias.xaml</DependentUpon>
     </Compile>
@@ -294,6 +309,12 @@
     </Compile>
     <Compile Include="Cliente\S-AsignarHorario.xaml.cs">
       <DependentUpon>S-AsignarHorario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\S-VerHorario.xaml.cs">
+      <DependentUpon>S-VerHorario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\S-VerHorarioSalon.xaml.cs">
+      <DependentUpon>S-VerHorarioSalon.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\S_RegistrarAlumno.xaml.cs">
       <DependentUpon>S_RegistrarAlumno.xaml</DependentUpon>

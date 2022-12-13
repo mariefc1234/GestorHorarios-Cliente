@@ -31,6 +31,13 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
+        private void Button_ClickVerHorario(object sender, RoutedEventArgs e)
+        {
+            E_VerHorario evh = new E_VerHorario(tokenR);
+            evh.Show();
+            this.Close();
+        }
+
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();

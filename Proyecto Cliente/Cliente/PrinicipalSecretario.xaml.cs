@@ -91,7 +91,16 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_VerHorarioSalon(object sender, RoutedEventArgs e)
         {
+            S_VerHorarioSalon svhs = new S_VerHorarioSalon(tokenR);
+            svhs.Show();
+            this.Close();
+        }
 
+        private void Button_CerrarSesion(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
         }
     }
 }

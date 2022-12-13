@@ -4,26 +4,17 @@
 winexe
 C#
 .cs
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
+D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\
 Proyecto_Cliente
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
-27-784764770
+30420840368
 
-33-551011446
+36-881103868
 34-493734449
-Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarPeriodo.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarPeriodo.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarPeriodo.xaml;Cliente\A-ModificarSalon.xaml;Cliente\A-RegistrarSecretario.xaml;Cliente\AgregarEdificio.xaml;Cliente\M-VerMaterias.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrincipalAlumno.xaml;Cliente\PrincipalMaestro.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S-AdministrarGrupo.xaml;Cliente\S-AgregarClase.xaml;Cliente\S-AgregarGrupo.xaml;Cliente\S-AsignarEstudiantesGrupo.xaml;Cliente\S-AsignarHorario.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
-=======
-D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\App.xaml
-26-179267009
-
-321573645041
-34507536967
-Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarPeriodo.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarPeriodo.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarPeriodo.xaml;Cliente\A-ModificarSalon.xaml;Cliente\A-RegistrarSecretario.xaml;Cliente\AgregarEdificio.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrincipalAlumno.xaml;Cliente\PrincipalMaestro.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S-AdministrarGrupo.xaml;Cliente\S-AgregarClase.xaml;Cliente\S-AgregarGrupo.xaml;Cliente\S-AsignarEstudiantesGrupo.xaml;Cliente\S-AsignarHorario.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
->>>>>>> c99d5907a2c4c3f64e0c5a467627430821a2349a
+Cliente\A-AdministrarArea.xaml;Cliente\A-AdministrarEdificio.xaml;Cliente\A-AdministrarMateria.xaml;Cliente\A-AdministrarPeriodo.xaml;Cliente\A-AdministrarSalon.xaml;Cliente\A-AgregarMateria.xaml;Cliente\A-AgregarPeriodo.xaml;Cliente\A-AgregarSalon.xaml;Cliente\A-ModificarEdificio.xaml;Cliente\A-ModificarMateria.xaml;Cliente\A-ModificarPeriodo.xaml;Cliente\A-ModificarSalon.xaml;Cliente\A-RegistrarSecretario.xaml;Cliente\AgregarEdificio.xaml;Cliente\E-VerHorario.xaml;Cliente\M-VerMaterias.xaml;Cliente\PrincipalAdministrador.xaml;Cliente\PrincipalAlumno.xaml;Cliente\PrincipalMaestro.xaml;Cliente\PrinicipalSecretario.xaml;Cliente\S-AdministrarGrupo.xaml;Cliente\S-AgregarClase.xaml;Cliente\S-AgregarGrupo.xaml;Cliente\S-AsignarEstudiantesGrupo.xaml;Cliente\S-AsignarHorario.xaml;Cliente\S-VerHorario.xaml;Cliente\S-VerHorarioSalon.xaml;Cliente\S_RegistrarAlumno.xaml;Cliente\S-RegistrarMaestro.xaml;MainWindow.xaml;
 
 False
 

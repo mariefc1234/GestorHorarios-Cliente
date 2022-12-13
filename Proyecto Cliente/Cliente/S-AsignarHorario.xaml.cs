@@ -119,7 +119,6 @@ namespace Proyecto_Cliente.Cliente
 
             }
         }
-
         public class Horario
         {
             public int idSemana { get; set; }
@@ -163,8 +162,6 @@ namespace Proyecto_Cliente.Cliente
             {
                 MessageBox.Show("Debes seleccionar las horas inico y fin primero");
             }
-
-
         }
 
         private async void GuardarHorario(Horario horario)
@@ -173,13 +170,13 @@ namespace Proyecto_Cliente.Cliente
             {
                 var response = await client.PostAsJsonAsync("horario", horario);
 
-                if (response.StatusCode.ToString() == "OK")
+                if (response.StatusCode.ToString() == "Created")
                 {
                     MessageBox.Show("Horario guardado con exito");
                 }
                 else
                 {
-                    MessageBox.Show("Error al tratar de guardar, intentelo mas tarde");
+                    MessageBox.Show("Conflictos en horas");
                 }
             }
             catch (HttpRequestException he)

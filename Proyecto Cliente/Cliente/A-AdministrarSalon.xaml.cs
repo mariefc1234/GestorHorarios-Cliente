@@ -71,7 +71,7 @@ namespace Proyecto_Cliente.Cliente
             Salon salonN = dgSalones.SelectedItem as Salon;
             if (salonN == null)
             {
-                MessageBox.Show("Debes seleccionar un edificio primero");
+                MessageBox.Show("Debes seleccionar un salon primero");
             }
             else
             {

@@ -1,5 +1,4 @@
 ﻿
-<<<<<<< HEAD
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\App.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarArea.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarEdificio.xaml;;
@@ -15,6 +14,8 @@ FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-ModificarSalon.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-RegistrarSecretario.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\AgregarEdificio.xaml;;
+FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\E-VerHorario.xaml;;
+FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\M-VerMaterias.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrincipalAdministrador.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrincipalAlumno.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrincipalMaestro.xaml;;
@@ -27,34 +28,6 @@ FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S_RegistrarAlumno.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-RegistrarMaestro.xaml;;
 FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\MainWindow.xaml;;
-FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\M-VerMaterias.xaml;;
-=======
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\App.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarArea.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarEdificio.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarMateria.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarPeriodo.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AdministrarSalon.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AgregarMateria.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AgregarPeriodo.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-AgregarSalon.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-ModificarEdificio.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-ModificarMateria.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-ModificarPeriodo.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-ModificarSalon.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\A-RegistrarSecretario.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\AgregarEdificio.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrincipalAdministrador.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrincipalAlumno.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrincipalMaestro.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\PrinicipalSecretario.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-AdministrarGrupo.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-AgregarClase.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-AgregarGrupo.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-AsignarEstudiantesGrupo.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-AsignarHorario.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S_RegistrarAlumno.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-RegistrarMaestro.xaml;;
-FD:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\MainWindow.xaml;;
->>>>>>> c99d5907a2c4c3f64e0c5a467627430821a2349a
+FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-VerHorario.xaml;;
+FD:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\Cliente\S-VerHorarioSalon.xaml;;
 

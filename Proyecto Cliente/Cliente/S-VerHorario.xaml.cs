@@ -13,16 +13,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using static Proyecto_Cliente.Cliente.S_AsignarEstudiantesGrupo;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace Proyecto_Cliente.Cliente
 {
-    public partial class M_VerMaterias : Window
+    public partial class S_VerHorario : Window
     {
-        HttpClient client = new HttpClient();
         string tokenR;
-        public M_VerMaterias(string tokenS)
+        int idSalonF;
+        HttpClient client = new HttpClient();
+        public S_VerHorario(string tokenS,int idsalon)
         {
             tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/horario");
@@ -32,12 +31,13 @@ namespace Proyecto_Cliente.Cliente
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
                 );
             InitializeComponent();
-            GetClases();
+            idSalonF = idsalon;
+            GetHorario();
         }
 
-        public async void GetClases()
+        public async void GetHorario()
         {
-            var response = await client.GetStringAsync("horario/profesor");
+            var response = await client.GetStringAsync("horario/salon/"+idSalonF);
             JObject json = JObject.Parse(response);
             var data = json.SelectToken("data");
             var lunes = data.SelectToken("lunes");
@@ -72,9 +72,11 @@ namespace Proyecto_Cliente.Cliente
             public string nrc { get; set; }
             public string horaInicio { get; set; }
             public string horaFin { get; set; }
+            public string maestro { get; set; }
             public string materia { get; set; }
-            public string salon { get; set; }
-            public string edificio { get; set; }
+            public int semestre { get; set; }
+            public string bloque { get; set; }
+
         }
 
         public string GetDias(int totalMateriasDia, dynamic diaLista)
@@ -92,8 +94,9 @@ namespace Proyecto_Cliente.Cliente
                     string vHoraInicio = (string)diaV.SelectToken("horaInicio");
                     string vHoraFin = (string)diaV.SelectToken("horaFIn");
                     string vMateria = (string)diaV.SelectToken("materia");
-                    string vSalon = (string)diaV.SelectToken("salon");
-                    string vEdificio = (string)diaV.SelectToken("edificio");
+                    string vMaestro = (string)diaV.SelectToken("maestro");
+                    int vSemestre = (int)diaV.SelectToken("semestre");
+                    string vBloque = (string)diaV.SelectToken("bloque");
 
                     listaDia.Add(new Clase()
                     {
@@ -101,16 +104,19 @@ namespace Proyecto_Cliente.Cliente
                         horaInicio = vHoraInicio,
                         horaFin = vHoraFin,
                         materia = vMateria,
-                        salon = vSalon,
-                        edificio = vEdificio
+                        maestro = vMaestro,
+                        semestre = vSemestre,
+                        bloque = vBloque
                     });
 
                     if (contAuxiliar < contadorDia)
                     {
                         textDia += string.Join("\n", "NRC: " + listaDia[contAuxiliar].nrc + "\n" +
                             "Nombre: " + listaDia[contAuxiliar].materia + "\n" + "Hora Inicio: " + listaDia[contAuxiliar].horaInicio +
-                            "\n" + "Hora Fin: " + listaDia[contAuxiliar].horaFin + "\n" + "Salon: " + listaDia[contAuxiliar].salon +
-                            "\n" + "Edificio: " + listaDia[contAuxiliar].edificio + "\n\n");
+                            "\n" + "Hora Fin: " + listaDia[contAuxiliar].horaFin + "\n" +
+                            "Maestro: "+listaDia[contAuxiliar].maestro+"\n"+ "Semestre:"+ listaDia[contAuxiliar].semestre+ "\n"+
+                            "Grupo: "+ listaDia[contAuxiliar].bloque+"\n\n"
+                            );
                         contAuxiliar++;
                     }
                 }
@@ -120,8 +126,6 @@ namespace Proyecto_Cliente.Cliente
 
         private void Button_ClickRegresar(object sender, RoutedEventArgs e)
         {
-            PrincipalMaestro psm = new PrincipalMaestro(tokenR);
-            psm.Show();
             this.Close();
         }
     }
