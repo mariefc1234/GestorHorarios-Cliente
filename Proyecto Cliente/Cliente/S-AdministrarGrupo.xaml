@@ -30,5 +30,6 @@
                                 Header="Area" />
             </DataGrid.Columns>
         </DataGrid>
+        <Button Click="Button_clicCrearClase" Margin="618,253,131,265" Cursor="Hand" Content="Crear Clase"/>
     </Grid>
 </Window>

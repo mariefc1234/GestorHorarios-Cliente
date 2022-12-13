@@ -46,7 +46,6 @@ namespace Proyecto_Cliente.Cliente
             agg.Show();
             this.Close();
         }
-
         private void Button_clicEliminar(object sender, RoutedEventArgs e)
         {
 
@@ -64,14 +63,12 @@ namespace Proyecto_Cliente.Cliente
                 }
             }
         }
-
         private void Button_clicSalir(object sender, RoutedEventArgs e)
         {
             Prinicipal_Secretario pcs = new Prinicipal_Secretario(tokenR);
             pcs.Show();
             this.Close();
         }
-
         private void Button_clicAsignar(object sender, RoutedEventArgs e)
         {
             Grupo grupoN = dgGrupos.SelectedItem as Grupo;
@@ -86,7 +83,20 @@ namespace Proyecto_Cliente.Cliente
                 this.Close();
             }
         }
-
+        private void Button_clicCrearClase(object sender, RoutedEventArgs e)
+        {
+            Grupo grupoN = dgGrupos.SelectedItem as Grupo;
+            if (grupoN == null)
+            {
+                MessageBox.Show("Debes seleccionar un grupo primero");
+            }
+            else
+            {
+                S_AgregarClase agc = new S_AgregarClase(tokenR, grupoN.id);
+                agc.Show();
+                this.Close();
+            }
+        }
 
 
         //Funciones de ayuda
@@ -124,7 +134,6 @@ namespace Proyecto_Cliente.Cliente
             }
             dgGrupos.ItemsSource = listaGrupos;
         }
-
         public async void GetAreas()
         {
             var response = await client.GetStringAsync("area");
@@ -143,7 +152,6 @@ namespace Proyecto_Cliente.Cliente
                 });
             }
         }
-
         private async void EliminarGrupo(int grupoId)
         {
             try
@@ -162,8 +170,10 @@ namespace Proyecto_Cliente.Cliente
             }
             catch (HttpRequestException he)
             {
+                Console.WriteLine(he);
                 MessageBox.Show("No se pudo conectar con la base de datos");
             }
         }
+
     }
 }

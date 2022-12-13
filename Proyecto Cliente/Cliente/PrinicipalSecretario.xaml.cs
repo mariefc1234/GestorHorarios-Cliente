@@ -53,6 +53,13 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
+        private void Button_ClickAsignarHorario(object sender, RoutedEventArgs e)
+        {
+            S_AsignarHorario ash = new S_AsignarHorario(tokenR);
+            ash.Show();
+            this.Close();
+        }
+
         // Funciones de la ventana
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();

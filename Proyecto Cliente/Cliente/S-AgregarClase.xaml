@@ -1,0 +1,41 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.S_AgregarClase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="S_AgregarClase" Height="500" Width="900">
+    <Grid Height="500" Width="900">
+        <Label FontSize="25" Margin="415,10,415,441">Clase</Label>
+        <Label FontSize="20" Margin="60,61,762,405">NRC:</Label>
+        <Label FontSize="20" Margin="60,120,738,346">Maestros:</Label>
+
+        <TextBox Name="tbNrc" Margin="143,61,537,405"></TextBox>
+
+        <DataGrid x:Name="dgMaestros" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" Margin="60,173,537,78">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding nombreCompleto}"
+                                Header="Nombre" />
+                <DataGridTextColumn
+                                Width="150"
+                                Binding="{Binding claveEmpleado}"
+                                Header="ClaveEmpleado" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="dgMaterias" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" Margin="481,78,116,173">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding nombre}"
+                                Header="Nombre Materia" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Click="Button_ClickGuardar" Margin="655,400,116,68">Guardar</Button>
+        <Button Click="Button_ClickSalir" Margin="504,400,268,68">Salir</Button>
+    </Grid>
+</Window>

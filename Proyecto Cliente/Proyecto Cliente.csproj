@@ -185,11 +185,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cliente\S-AgregarClase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\S-AgregarGrupo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente\S-AsignarEstudiantesGrupo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\S-AsignarHorario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -268,11 +276,17 @@
     <Compile Include="Cliente\S-AdministrarGrupo.xaml.cs">
       <DependentUpon>S-AdministrarGrupo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\S-AgregarClase.xaml.cs">
+      <DependentUpon>S-AgregarClase.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\S-AgregarGrupo.xaml.cs">
       <DependentUpon>S-AgregarGrupo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\S-AsignarEstudiantesGrupo.xaml.cs">
       <DependentUpon>S-AsignarEstudiantesGrupo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\S-AsignarHorario.xaml.cs">
+      <DependentUpon>S-AsignarHorario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\S_RegistrarAlumno.xaml.cs">
       <DependentUpon>S_RegistrarAlumno.xaml</DependentUpon>

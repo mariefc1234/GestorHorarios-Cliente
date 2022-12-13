@@ -46,8 +46,9 @@ namespace Proyecto_Cliente.Cliente
             {
                 int idArea = (int)datosArea.SelectToken("id");
                 string nombreArea = (string)datosArea.SelectToken("nombre");
+                int vSemestre = (int)datosArea.SelectToken("semestre");
 
-                listaArea.Add(new Area() { id = idArea, nombre = nombreArea });
+                listaArea.Add(new Area() { id = idArea, nombre = nombreArea, semestre = vSemestre });
             }
             dgArea.ItemsSource = listaArea;
         }

@@ -10,6 +10,7 @@ namespace Proyecto_Cliente.clases
     {
         public int id { get; set; }
         public string nombre { get; set; }
+        public int semestre { get; set; }
         public Area()
         {
 

@@ -22,9 +22,13 @@
         <DataGrid Name="dgArea" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" Margin="80,225,245,65">
             <DataGrid.Columns>
                 <DataGridTextColumn
-                                Width="400"
+                                Width="*"
                                 Binding="{Binding nombre}"
                                 Header="Nombre" />
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding semestre}"
+                                Header="Semestre" />
             </DataGrid.Columns>
 
         </DataGrid>
