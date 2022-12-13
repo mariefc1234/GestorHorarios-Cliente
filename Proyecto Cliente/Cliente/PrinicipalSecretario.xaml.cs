@@ -32,12 +32,6 @@ namespace Proyecto_Cliente.Cliente
             this.Close();
         }
 
-        private void Button_CerrarSesion(object sender, RoutedEventArgs e)
-        {
-            MainWindow mw = new MainWindow();
-            mw.Show();
-            this.Close();
-        }
 
         private void Button_ClickRegistarMaestro(object sender, RoutedEventArgs e)
         {
@@ -93,6 +87,11 @@ namespace Proyecto_Cliente.Cliente
         private void minimizeWindow(object sender, MouseButtonEventArgs e)
         {
             try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void Button_VerHorarioSalon(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -68,7 +68,7 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="200" />
+                        <RowDefinition Height="80" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <StackPanel
@@ -78,26 +78,41 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Top"
                         Orientation="Vertical">
-                        <Label
-                            Width="100"
-                            Margin="26,0,0,0"
-                            FontSize="15">
-                            Nombre Area:
-                        </Label>
-                        <TextBox x:Name="tbNombreArea" Width="291" />
+
+                        <StackPanel
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Orientation="Horizontal">
+                            <Label
+                                Width="100"
+                                Margin="26,0,0,0"
+                                FontSize="15">
+                                Nombre Area:
+                            </Label>
+                            <TextBox x:Name="tbNombreArea" Width="291" />
+                        </StackPanel>
+                        <StackPanel Margin="26,10,0,0" Orientation="Horizontal">
+                            <Label Width="100" FontSize="15">Semestre:</Label>
+                            <TextBox x:Name="tbSemestre" Width="291" />
+                        </StackPanel>
                         <TextBox
                             x:Name="tbId"
                             Text="0"
                             Visibility="Hidden" />
-                        <Button Width="100" Click="Button_ClickAgregarArea">
+                    </StackPanel>
+                    <StackPanel
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="0,0,15,0"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top">
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Width="150"
+                            Click="Button_ClickAgregarArea">
                             Agregar
                         </Button>
-
-                        <StackPanel >
-                            <Label>Semestre</Label>
-                            <TextBox x:Name="tbSemestre"></TextBox>
-                        </StackPanel>
-
                     </StackPanel>
                     <DataGrid
                         Name="dgArea"
@@ -115,7 +130,7 @@
                     </DataGrid>
 
                     <StackPanel
-                        Grid.Row="1"
+                        Grid.Row="2"
                         Grid.Column="1"
                         Margin="0,0,15,0"
                         HorizontalAlignment="Right"
@@ -128,7 +143,7 @@
                         </Button>
                         <Button
                             Width="150"
-                            Margin="0,30,0,0"
+                            Margin="0,50,0,0"
                             Click="Button_ClickModificarArea">
                             Modificar
                         </Button>

@@ -359,5 +359,17 @@ D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
+<<<<<<< HEAD
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.g.cs
 D:\Proyecto Desarrollo\cliente\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\M-VerMaterias.baml
+=======
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarClase.baml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AgregarGrupo.baml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarEstudiantesGrupo.baml
+D:\marie\Documents\GestorHorarios\GestorHorarios-Cliente\Proyecto Cliente\obj\Debug\Cliente\S-AsignarHorario.baml
+>>>>>>> c99d5907a2c4c3f64e0c5a467627430821a2349a
