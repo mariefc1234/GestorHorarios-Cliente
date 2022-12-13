@@ -166,7 +166,6 @@ namespace Proyecto_Cliente.Cliente
 
         }
 
-
         private async void GuardarHorario(Horario horario)
         {
             try
@@ -187,6 +186,13 @@ namespace Proyecto_Cliente.Cliente
                 MessageBox.Show("No se pudo conectar con la base de datos");
                 Console.WriteLine(he);
             }
+        }
+
+        private void Button_ClickCancelar(object sender, RoutedEventArgs e)
+        {
+            Prinicipal_Secretario pns = new Prinicipal_Secretario(tokenR);
+            pns.Show();
+            this.Show();
         }
     }
 }

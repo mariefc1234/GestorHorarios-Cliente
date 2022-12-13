@@ -54,6 +54,8 @@
         <materialDesign:TimePicker Name="timePicker2" Height="30" Is24Hours="True"
                            SelectedTime="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type local:S_AsignarHorario}}, Path=Time2}" Margin="334,170,266,0" VerticalAlignment="Top"/>
 
-        <Button Click="Button_ClickGuardarAsignacion" Margin="694,420,57,98">Guardar</Button>
+        <Button Click="Button_ClickGuardarAsignacion" Margin="694,420,57,98" Cursor="Hand">Guardar</Button>
+        <Button Click="Button_ClickCancelar" Margin="520,420,231,98" Cursor="Hand">Cancelar</Button>
+
     </Grid>
 </Window>
