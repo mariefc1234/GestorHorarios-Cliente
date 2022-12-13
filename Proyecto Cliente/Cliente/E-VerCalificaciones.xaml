@@ -1,0 +1,28 @@
+﻿<Window x:Class="Proyecto_Cliente.Cliente.E_VerCalificaciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Cliente.Cliente"
+        mc:Ignorable="d"
+        Title="E_VerCalificaciones" Height="550" Width="900">
+    <Grid Height="550" Width="900">
+        <DataGrid Name="dgCalificaciones" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" Margin="67,78,60,160">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding nrc}"
+                                Header="NRC" />
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding calificacion}"
+                                Header="Calificacion" />
+                <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding materia}"
+                                Header="Materia" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Click="Button_ClickRegresar" Margin="678,417,60,101" Cursor="Hand">Regresar</Button>
+    </Grid>
+</Window>

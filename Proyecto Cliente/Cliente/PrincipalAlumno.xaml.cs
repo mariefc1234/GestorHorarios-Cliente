@@ -72,5 +72,12 @@ namespace Proyecto_Cliente.Cliente
         {
             try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
+
+        private void Button_ClickConsultarCalificaciones(object sender, RoutedEventArgs e)
+        {
+            E_VerCalificaciones evc = new E_VerCalificaciones(tokenR);
+            evc.Show();
+            this.Close();
+        }
     }
 }

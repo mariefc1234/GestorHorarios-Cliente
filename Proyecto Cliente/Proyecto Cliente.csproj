@@ -165,7 +165,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Cliente\E-VerCalificaciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cliente\E-VerHorario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\M-AsignarCalificaciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente\M-AsignarCalificacionesAlumnos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -277,8 +289,17 @@
     <Compile Include="Cliente\AgregarEdificio.xaml.cs">
       <DependentUpon>AgregarEdificio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\E-VerCalificaciones.xaml.cs">
+      <DependentUpon>E-VerCalificaciones.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cliente\E-VerHorario.xaml.cs">
       <DependentUpon>E-VerHorario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\M-AsignarCalificaciones.xaml.cs">
+      <DependentUpon>M-AsignarCalificaciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\M-AsignarCalificacionesAlumnos.xaml.cs">
+      <DependentUpon>M-AsignarCalificacionesAlumnos.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cliente\M-VerMaterias.xaml.cs">
       <DependentUpon>M-VerMaterias.xaml</DependentUpon>

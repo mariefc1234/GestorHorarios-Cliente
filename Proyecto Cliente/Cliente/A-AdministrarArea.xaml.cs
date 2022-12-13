@@ -30,7 +30,7 @@ namespace Proyecto_Cliente.Cliente
             tokenR = tokenS;
             client.BaseAddress = new Uri("http://127.0.0.1:5000/api/area");
             client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Add("authtoken", tokenR);
+            client.DefaultRequestHeaders.Add("auth_token", tokenR);
             client.DefaultRequestHeaders.Accept.Add(
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
                 );

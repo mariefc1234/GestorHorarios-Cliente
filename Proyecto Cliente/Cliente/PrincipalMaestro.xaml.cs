@@ -70,6 +70,11 @@ namespace Proyecto_Cliente.Cliente
         {
             try { this.WindowState = WindowState.Minimized; } catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
-
+        private void Button_ClickAsignarCalificaciones(object sender, RoutedEventArgs e)
+        {
+            M_AsignarCalificaciones masgc = new M_AsignarCalificaciones(tokenR);
+            masgc.Show();
+            this.Close();
+        }
     }
 }
